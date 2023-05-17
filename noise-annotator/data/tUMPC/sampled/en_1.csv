@@ -1,0 +1,2 @@
+src word,tgt word,src slot,src predicted,tgt slot,tgt predicted,annotation
+leads,leading,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,C

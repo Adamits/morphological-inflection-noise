@@ -1,0 +1,901 @@
+src word,tgt word,src slot,src predicted MSD,tgt slot,tgt predicted MSD,src apertium tags,tgt apertium tags,annotation
+rooms,room,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+room,rooms,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+hairs,hair,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+hair,hairs,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+whispered,whispering,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+whispering,whispered,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+sums,sum,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+sum,sums,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+galileans,galilean,1_0,V;3;SG;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+galilean,galileans,1_2,V;NFIN,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+looks,looked,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+looks,look,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+looks,looking,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+looked,looks,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+looked,look,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+looked,looking,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+look,looks,1_2,V;NFIN,1_0,V;3;SG;PRS,adv; - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+look,looked,1_2,V;NFIN,1_1,V;PST,adv; - n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+look,looking,1_2,V;NFIN,1_3,V;V.PTCP;PRS,adv; - n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+looking,looks,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+looking,looked,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+looking,look,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+flames,flame,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+flames,flaming,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,adj; - verb;pprs - verb;subs - verb;ger,C
+flame,flames,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+flame,flaming,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,adj; - verb;pprs - verb;subs - verb;ger,C
+flaming,flames,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,adj; - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+flaming,flame,1_3,V;V.PTCP;PRS,1_2,V;NFIN,adj; - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+stores,stored,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+stores,store,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+stores,storing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+stored,stores,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+stored,store,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+stored,storing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+store,stores,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+store,stored,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+store,storing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+storing,stores,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+storing,stored,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+storing,store,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+bowls,bowl,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+bowl,bowls,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+corrupts,corrupted,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+corrupts,corrupt,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,adj; - verb;inf - verb;pres - verb;imp,C
+corrupted,corrupts,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+corrupted,corrupt,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adj; - verb;inf - verb;pres - verb;imp,C
+corrupt,corrupts,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+corrupt,corrupted,1_2,V;NFIN,1_1,V;PST,adj; - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+sorcerer,sorcery,1_5,N;SG,1_6,ADJ,n;sg,n;sg,PARADIGM_ERROR
+sorcery,sorcerer,1_6,ADJ,1_5,N;SG,n;sg,n;sg,PARADIGM_ERROR
+evils,evil,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,adj; - n;sg,C
+evil,evils,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg,n;pl,C
+spend,spending,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+spending,spend,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+pushed,pushing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+pushing,pushed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+dragged,dragging,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+dragging,dragged,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+escorted,escort,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+escort,escorted,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+loads,loaded,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past - adj;,C
+loads,load,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+loaded,loads,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past - adj;,n;pl - verb;pres;p3;sg,C
+loaded,load,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,n;sg - verb;inf - verb;pres - verb;imp,C
+load,loads,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+load,loaded,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+physical,physically,1_2,V;NFIN,1_4,?,adj; - adv;,adv;,TGT_POS_ERROR
+physically,physical,1_4,?,1_2,V;NFIN,adv;,adj; - adv;,SRC_POS_ERROR
+revelations,revelation,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+revelation,revelations,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+inherited,inherit,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,verb;inf - verb;pres - verb;imp,C
+inherit,inherited,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+disappears,disappeared,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+disappears,disappear,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+disappeared,disappears,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+disappeared,disappear,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+disappear,disappears,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+disappear,disappeared,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+enjoyed,enjoy,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+enjoyed,enjoying,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+enjoy,enjoyed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+enjoy,enjoying,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+enjoying,enjoyed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+enjoying,enjoy,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+yours,your,1_0,V;3;SG;PRS,1_2,V;NFIN,adj;pos;pred - prn;pos;p2;mf;sp,det;pos;sp - det;pos;p2;mf;sp,POS_PAIR_ERROR
+your,yours,1_2,V;NFIN,1_0,V;3;SG;PRS,det;pos;sp - det;pos;p2;mf;sp,adj;pos;pred - prn;pos;p2;mf;sp,POS_PAIR_ERROR
+fills,filled,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+fills,fill,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+filled,fills,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+filled,fill,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+fill,fills,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+fill,filled,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+requests,requested,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past - adj;,C
+requests,request,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+requests,requesting,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+requested,requests,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past - adj;,n;pl - verb;pres;p3;sg,C
+requested,request,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,n;sg - verb;inf - verb;pres - verb;imp,C
+requested,requesting,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past - adj;,verb;pprs - verb;subs - verb;ger,C
+request,requests,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+request,requested,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+request,requesting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+requesting,requests,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+requesting,requested,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past - adj;,C
+requesting,request,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+harvests,harvested,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+harvests,harvest,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+harvests,harvesting,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+harvested,harvests,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+harvested,harvest,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+harvested,harvesting,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+harvest,harvests,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+harvest,harvested,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+harvest,harvesting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+harvesting,harvests,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+harvesting,harvested,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+harvesting,harvest,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+simple,simply,1_2,V;NFIN,1_6,ADJ,adj;sint,adv;,POS_PAIR_ERROR
+simply,simple,1_6,ADJ,1_2,V;NFIN,adv;,adj;sint,POS_PAIR_ERROR
+fix,fixing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+fixing,fix,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+accord,according,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,pr; - verb;pprs - verb;subs - verb;ger,C
+according,accord,1_3,V;V.PTCP;PRS,1_2,V;NFIN,pr; - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+sends,send,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+sends,sending,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+send,sends,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+send,sending,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+sending,sends,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+sending,send,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+ancients,ancient,1_0,V;3;SG;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR
+ancient,ancients,1_2,V;NFIN,1_0,V;3;SG;PRS,,,TGT_LEXICAL_ERROR
+praises,praised,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+praises,praise,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+praises,praising,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+praised,praises,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+praised,praise,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+praised,praising,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+praise,praises,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+praise,praised,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+praise,praising,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+praising,praises,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+praising,praised,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+praising,praise,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+riches,rich,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,adj;sint,POS_PAIR_ERROR
+riches,richly,1_0,V;3;SG;PRS,1_4,?,n;pl,adv;,POS_PAIR_ERROR
+rich,riches,1_2,V;NFIN,1_0,V;3;SG;PRS,adj;sint,n;pl,POS_PAIR_ERROR
+rich,richly,1_2,V;NFIN,1_4,?,adj;sint,adv;,POS_PAIR_ERROR
+richly,riches,1_4,?,1_0,V;3;SG;PRS,adv;,n;pl,POS_PAIR_ERROR
+richly,rich,1_4,?,1_2,V;NFIN,adv;,adj;sint,POS_PAIR_ERROR
+foods,food,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,adj; - n;sg,C
+food,foods,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg,n;pl,C
+customs,custom,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - n;pl,adj; - n;sg,C
+custom,customs,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg,n;pl - n;pl,C
+traditions,tradition,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+tradition,traditions,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+off,offer,1_2,V;NFIN,1_5,N;SG,adv;,n;sg - verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+offer,off,1_5,N;SG,1_2,V;NFIN,n;sg - verb;inf - verb;pres - verb;imp,adv;,POS_PAIR_ERROR
+poisoned,poison,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+poison,poisoned,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+denounced,denounce,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+denounce,denounced,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+owes,owed,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;past - verb;pp,C
+owes,owe,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+owed,owes,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,verb;pres;p3;sg,C
+owed,owe,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+owe,owes,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+owe,owed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+masquerades,masquerade,1_0,V;3;SG;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+masquerades,masquerading,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+masquerade,masquerades,1_2,V;NFIN,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+masquerade,masquerading,1_2,V;NFIN,1_3,V;V.PTCP;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+masquerading,masquerades,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+masquerading,masquerade,1_3,V;V.PTCP;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+shielded,shield,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+shield,shielded,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+debts,debt,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+debt,debts,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+final,finally,1_2,V;NFIN,1_4,?,adj; - n;sg,adv;,POS_PAIR_ERROR
+finally,final,1_4,?,1_2,V;NFIN,adv;,adj; - n;sg,POS_PAIR_ERROR
+liars,liar,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+liar,liars,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+referred,referring,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+referring,referred,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+wonders,wondered,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+wonders,wonder,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+wonders,wondering,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+wondered,wonders,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+wondered,wonder,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+wondered,wondering,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+wonder,wonders,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+wonder,wondered,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+wonder,wondering,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+wondering,wonders,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+wondering,wondered,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+wondering,wonder,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+gifts,gifted,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past - adj;,C
+gifts,gift,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+gifted,gifts,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past - adj;,n;pl - verb;pres;p3;sg,C
+gifted,gift,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,n;sg - verb;inf - verb;pres - verb;imp,C
+gift,gifts,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+gift,gifted,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+redeemed,redeem,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+redeem,redeemed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+groans,groan,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+groans,groaning,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+groan,groans,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+groan,groaning,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+groaning,groans,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+groaning,groan,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+scorned,scorn,1_1,V;PST,1_2,V;NFIN,,,SRC_LEXICAL_ERROR
+scorned,scorning,1_1,V;PST,1_3,V;V.PTCP;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+scorn,scorned,1_2,V;NFIN,1_1,V;PST,,,TGT_LEXICAL_ERROR
+scorn,scorning,1_2,V;NFIN,1_3,V;V.PTCP;PRS,,,TGT_LEXICAL_ERROR
+scorning,scorned,1_3,V;V.PTCP;PRS,1_1,V;PST,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+scorning,scorn,1_3,V;V.PTCP;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR
+deals,deal,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+deals,dealing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,adj; - n;sg - verb;pprs - verb;subs - verb;ger,C
+deals,dealer,1_0,V;3;SG;PRS,1_5,N;SG,n;pl - verb;pres;p3;sg,n;sg,PARADIGM_ERROR
+deal,deals,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+deal,dealing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,adj; - n;sg - verb;pprs - verb;subs - verb;ger,C
+deal,dealer,1_2,V;NFIN,1_5,N;SG,n;sg - verb;inf - verb;pres - verb;imp,n;sg,PARADIGM_ERROR
+dealing,deals,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,adj; - n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+dealing,deal,1_3,V;V.PTCP;PRS,1_2,V;NFIN,adj; - n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+dealing,dealer,1_3,V;V.PTCP;PRS,1_5,N;SG,adj; - n;sg - verb;pprs - verb;subs - verb;ger,n;sg,PARADIGM_ERROR
+dealer,deals,1_5,N;SG,1_0,V;3;SG;PRS,n;sg,n;pl - verb;pres;p3;sg,PARADIGM_ERROR
+dealer,deal,1_5,N;SG,1_2,V;NFIN,n;sg,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+dealer,dealing,1_5,N;SG,1_3,V;V.PTCP;PRS,n;sg,adj; - n;sg - verb;pprs - verb;subs - verb;ger,PARADIGM_ERROR
+doctors,doctor,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+doctor,doctors,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+festivals,festival,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+festival,festivals,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+dear,dearly,1_2,V;NFIN,1_4,?,adv; - adj;sint,adv;,TGT_POS_ERROR
+dear,dearer,1_2,V;NFIN,1_5,N;SG,adv; - adj;sint,adj;sint;comp,C
+dearly,dear,1_4,?,1_2,V;NFIN,adv;,adv; - adj;sint,SRC_POS_ERROR
+dearly,dearer,1_4,?,1_5,N;SG,adv;,adj;sint;comp,POS_PAIR_ERROR
+dearer,dear,1_5,N;SG,1_2,V;NFIN,adj;sint;comp,adv; - adj;sint,C
+dearer,dearly,1_5,N;SG,1_4,?,adj;sint;comp,adv;,POS_PAIR_ERROR
+jail,jailer,1_2,V;NFIN,1_5,N;SG,n;sg - verb;inf - verb;pres - verb;imp,n;sg,PARADIGM_ERROR
+jailer,jail,1_5,N;SG,1_2,V;NFIN,n;sg,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+spoils,spoil,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+spoil,spoils,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+crowds,crowding,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+crowding,crowds,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+raises,raised,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;past - verb;pp,C
+raises,raise,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+raises,raising,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+raised,raises,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,verb;pres;p3;sg,C
+raised,raise,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+raised,raising,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+raise,raises,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+raise,raised,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+raise,raising,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+raising,raises,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+raising,raised,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+raising,raise,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+stones,stoned,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+stones,stone,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+stones,stoning,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+stoned,stones,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+stoned,stone,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+stoned,stoning,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,n;sg - verb;pprs - verb;subs - verb;ger,C
+stone,stones,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+stone,stoned,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+stone,stoning,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+stoning,stones,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+stoning,stoned,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+stoning,stone,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+entrusted,entrust,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,verb;inf - verb;pres - verb;imp,C
+entrust,entrusted,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+graves,grave,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg - adj;sint,C
+grave,graves,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - adj;sint,n;pl,C
+pervert,perverting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+perverting,pervert,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+polluted,pollute,1_1,V;PST,1_2,V;NFIN,adj; - verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+pollute,polluted,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,adj; - verb;past - verb;pp,C
+needs,needed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+needs,need,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+needs,needing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+needs,needy,1_0,V;3;SG;PRS,1_6,ADJ,n;pl - verb;pres;p3;sg,adj;sint,POS_PAIR_ERROR
+needed,needs,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+needed,need,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+needed,needing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+needed,needy,1_1,V;PST,1_6,ADJ,verb;pp - verb;past,adj;sint,POS_PAIR_ERROR
+need,needs,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+need,needed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+need,needing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+need,needy,1_2,V;NFIN,1_6,ADJ,n;sg - verb;inf - verb;pres - verb;imp,adj;sint,POS_PAIR_ERROR
+needing,needs,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+needing,needed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+needing,need,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+needing,needy,1_3,V;V.PTCP;PRS,1_6,ADJ,verb;pprs - verb;subs - verb;ger,adj;sint,POS_PAIR_ERROR
+needy,needs,1_6,ADJ,1_0,V;3;SG;PRS,adj;sint,n;pl - verb;pres;p3;sg,POS_PAIR_ERROR
+needy,needed,1_6,ADJ,1_1,V;PST,adj;sint,verb;pp - verb;past,POS_PAIR_ERROR
+needy,need,1_6,ADJ,1_2,V;NFIN,adj;sint,n;sg - verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+needy,needing,1_6,ADJ,1_3,V;V.PTCP;PRS,adj;sint,verb;pprs - verb;subs - verb;ger,POS_PAIR_ERROR
+strong,strongly,1_2,V;NFIN,1_4,?,adj;sint,adv;,POS_PAIR_ERROR
+strong,stronger,1_2,V;NFIN,1_5,N;SG,adj;sint,adj;sint;comp,C
+strongly,strong,1_4,?,1_2,V;NFIN,adv;,adj;sint,POS_PAIR_ERROR
+strongly,stronger,1_4,?,1_5,N;SG,adv;,adj;sint;comp,POS_PAIR_ERROR
+stronger,strong,1_5,N;SG,1_2,V;NFIN,adj;sint;comp,adj;sint,C
+stronger,strongly,1_5,N;SG,1_4,?,adj;sint;comp,adv;,POS_PAIR_ERROR
+blocked,block,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+block,blocked,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+repeated,repeat,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+repeat,repeated,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+dead,deadly,1_2,V;NFIN,1_4,?,adj;,adj; - adv; - adj;sint,PARADIGM_ERROR
+deadly,dead,1_4,?,1_2,V;NFIN,adj; - adv; - adj;sint,adj;,PARADIGM_ERROR
+credits,credited,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+credits,credit,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+credited,credits,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+credited,credit,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+credit,credits,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+credit,credited,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+friends,friend,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+friend,friends,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+inflicted,inflict,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+inflict,inflicted,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+samaritans,samaritan,1_0,V;3;SG;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+samaritan,samaritans,1_2,V;NFIN,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+frequent,frequently,1_2,V;NFIN,1_4,?,adj; - verb;inf - verb;pres - verb;imp,adv;,POS_PAIR_ERROR
+frequently,frequent,1_4,?,1_2,V;NFIN,adv;,adj; - verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+hired,hire,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+hire,hired,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+responded,respond,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+respond,responded,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+wrongs,wronged,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+wrongs,wrong,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,adj; - adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+wronged,wrongs,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+wronged,wrong,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adj; - adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+wrong,wrongs,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - adv; - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+wrong,wronged,1_2,V;NFIN,1_1,V;PST,adj; - adv; - n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+chests,chest,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+chest,chests,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+deeds,deed,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+deed,deeds,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+bodies,bodily,1_0,V;3;SG;PRS,1_4,?bodily,bodies,1_4,?,1_0,V;3;SG;PRSpossesses,possessed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl,adj; - adv;,POS_PAIR_ERROR
+possesses,possess,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+possesses,possessing,1_0,V;3;SG;PRS,1_3,verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+possessed,possesses,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+possessed,possess,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+possessed,possessing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+possess,possesses,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+possess,possessed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+possess,possessing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+possessing,possesses,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+possessing,possessed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+possessing,possess,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+deprived,deprive,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+deprive,deprived,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+aroused,arouse,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+arouse,aroused,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+provinces,province,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+province,provinces,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+breaks,break,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+breaks,breaking,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+breaks,breaker,1_0,V;3;SG;PRS,1_5,N;SG,n;pl - verb;pres;p3;sg,n;sg,PARADIGM_ERROR
+break,breaks,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+break,breaking,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+break,breaker,1_2,V;NFIN,1_5,N;SG,n;sg - verb;inf - verb;pres - verb;imp,n;sg,PARADIGM_ERROR
+breaking,breaks,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+breaking,break,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+breaking,breaker,1_3,V;V.PTCP;PRS,1_5,N;SG,n;sg - verb;pprs - verb;subs - verb;ger,n;sg,PARADIGM_ERROR
+breaker,breaks,1_5,N;SG,1_0,V;3;SG;PRS,n;sg,n;pl - verb;pres;p3;sg,PARADIGM_ERROR
+breaker,break,1_5,N;SG,1_2,V;NFIN,n;sg,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+breaker,breaking,1_5,N;SG,1_3,V;V.PTCP;PRS,n;sg,n;sg - verb;pprs - verb;subs - verb;ger,PARADIGM_ERROR
+sink,sinking,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+sinking,sink,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+taste,tasting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+tasting,taste,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+bits,bite,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+bite,bits,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl,PARADIGM_ERROR
+depends,depended,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+depends,depend,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+depended,depends,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+depended,depend,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+depend,depends,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+depend,depended,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+supply,supplying,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,adj; - verb;pprs - verb;subs - verb;ger,C
+supplying,supply,1_3,V;V.PTCP;PRS,1_2,V;NFIN,adj; - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+stings,sting,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+sting,stings,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+decrees,decreed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+decrees,decree,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+decreed,decrees,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+decreed,decree,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+decree,decrees,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+decree,decreed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+rebukes,rebuked,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+rebukes,rebuke,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+rebukes,rebuking,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+rebuked,rebukes,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+rebuked,rebuke,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+rebuked,rebuking,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+rebuke,rebukes,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+rebuke,rebuked,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+rebuke,rebuking,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+rebuking,rebukes,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+rebuking,rebuked,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+rebuking,rebuke,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+overseers,overseer,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+overseer,overseers,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+decorated,decorate,1_1,V;PST,1_2,V;NFIN,adj; - verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+decorate,decorated,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,adj; - verb;past - verb;pp,C
+times,time,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+time,times,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+divorces,divorced,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+divorces,divorce,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+divorced,divorces,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+divorced,divorce,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+divorce,divorces,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+divorce,divorced,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+interests,interest,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+interest,interests,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+injured,injuring,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+injured,injury,1_1,V;PST,1_6,ADJ,verb;past - verb;pp,n;sg,POS_PAIR_ERROR
+injuring,injured,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+injuring,injury,1_3,V;V.PTCP;PRS,1_6,ADJ,verb;pprs - verb;subs - verb;ger,n;sg,POS_PAIR_ERROR
+injury,injured,1_6,ADJ,1_1,V;PST,n;sg,verb;past - verb;pp,POS_PAIR_ERROR
+injury,injuring,1_6,ADJ,1_3,V;V.PTCP;PRS,n;sg,verb;pprs - verb;subs - verb;ger,POS_PAIR_ERROR
+refuted,refute,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+refute,refuted,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+bounds,bound,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,verb;past - verb;pp - n;sg - verb;inf - verb;pres - verb;imp,C
+bound,bounds,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;past - verb;pp - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+exposed,expose,1_1,V;PST,1_2,V;NFIN,adj; - verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+expose,exposed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,adj; - verb;past - verb;pp,C
+perched,perch,1_1,V;PST,1_2,V;NFIN,,,SRC_LEXICAL_ERROR
+perch,perched,1_2,V;NFIN,1_1,V;PST,,,TGT_LEXICAL_ERROR
+excluded,exclude,1_1,V;PST,1_2,V;NFIN,adj; - verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+exclude,excluded,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,adj; - verb;past - verb;pp,C
+careful,carefully,1_2,V;NFIN,1_4,?,adj;,adv;,POS_PAIR_ERROR
+carefully,careful,1_4,?,1_2,V;NFIN,adv;,adj;,POS_PAIR_ERROR
+enters,entered,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+enters,enter,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+enters,entering,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+entered,enters,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+entered,enter,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+entered,entering,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,n;sg - verb;pprs - verb;subs - verb;ger,C
+enter,enters,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+enter,entered,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+enter,entering,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+entering,enters,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+entering,entered,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+entering,enter,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+kissed,kiss,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+kissed,kissing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+kiss,kissed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+kiss,kissing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+kissing,kissed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+kissing,kiss,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+obtained,obtain,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+obtained,obtaining,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+obtain,obtained,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+obtain,obtaining,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+obtaining,obtained,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+obtaining,obtain,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+have,having,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;inf - verb;pres - verb;imp,verb;pprs - verb;pprs - verb;subs - verb;subs - verb;ger - verb;ger,C
+having,have,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;pprs - verb;subs - verb;subs - verb;ger - verb;ger,verb;inf - verb;pres - verb;inf - verb;pres - verb;imp,C
+mats,mat,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,adj; - n;sg,C
+mat,mats,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg,n;pl,C
+amounts,amount,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+amount,amounts,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+sailed,sail,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+sailed,sailing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,n;sg - verb;pprs - verb;subs - verb;ger,C
+sail,sailed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+sail,sailing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+sailing,sailed,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+sailing,sail,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+neglected,neglect,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+neglected,neglecting,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+neglect,neglected,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+neglect,neglecting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+neglecting,neglected,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+neglecting,neglect,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+clear,clearly,1_2,V;NFIN,1_4,?,adj;sint - verb;inf - verb;pres - verb;imp,adv;,POS_PAIR_ERROR
+clearly,clear,1_4,?,1_2,V;NFIN,adv;,adj;sint - verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+dreams,dream,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+dream,dreams,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+seasons,seasoned,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+seasons,season,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+seasoned,seasons,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+seasoned,season,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+season,seasons,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+season,seasoned,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+boasts,boasted,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+boasts,boast,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+boasts,boasting,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+boasted,boasts,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+boasted,boast,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+boasted,boasting,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,n;sg - verb;pprs - verb;subs - verb;ger,C
+boast,boasts,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+boast,boasted,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+boast,boasting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+boasting,boasts,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+boasting,boasted,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+boasting,boast,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+summoned,summoning,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+summoning,summoned,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+true,truly,1_2,V;NFIN,1_4,?,adj;sint,adv;,POS_PAIR_ERROR
+truly,true,1_4,?,1_2,V;NFIN,adv;,adj;sint,POS_PAIR_ERROR
+levites,levite,1_0,V;3;SG;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+levite,levites,1_2,V;NFIN,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+ministers,minister,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+minister,ministers,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+kilograms,kilogram,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+kilogram,kilograms,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+overtakes,overtake,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+overtake,overtakes,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+attendants,attendant,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+attendant,attendants,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+discriminated,discriminate,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+discriminate,discriminated,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+brings,bring,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+brings,bringing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+bring,brings,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+bring,bringing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+bringing,brings,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+bringing,bring,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+recalled,recall,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+recalled,recalling,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+recall,recalled,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+recall,recalling,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+recalling,recalled,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+recalling,recall,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+thousands,thousand,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,num;pl - n;sg,C
+thousand,thousands,1_2,V;NFIN,1_0,V;3;SG;PRS,num;pl - n;sg,n;pl,C
+displays,displayed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past - adj;,C
+displays,display,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+displayed,displays,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past - adj;,n;pl - verb;pres;p3;sg,C
+displayed,display,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,n;sg - verb;inf - verb;pres - verb;imp,C
+display,displays,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+display,displayed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+sisters,sister,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+sister,sisters,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+necks,necked,1_0,V;3;SG;PRS,1_1,V;PST,,,TGT_LEXICAL_ERROR
+necks,neck,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+necked,necks,1_1,V;PST,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR
+necked,neck,1_1,V;PST,1_2,V;NFIN,,,SRC_LEXICAL_ERROR
+neck,necks,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+neck,necked,1_2,V;NFIN,1_1,V;PST,,,TGT_LEXICAL_ERROR
+takes,take,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+take,takes,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+clothes,cloths,1_0,V;3;SG;PRS,1_0,V;3;SG;PRS,n;pl - verb;pres;p3;sg,n;pl,PARADIGM_ERROR
+cloths,clothes,1_0,V;3;SG;PRS,1_0,V;3;SG;PRS,n;pl,n;pl - verb;pres;p3;sg,PARADIGM_ERROR
+clothes,clothed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+cloths,clothed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl,verb;past - verb;pp,POS_PAIR_ERROR
+clothes,cloth,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg,PARADIGM_ERROR
+clothes,clothe,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+cloths,cloth,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+cloths,clothe,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+clothes,clothing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+cloths,clothing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl,n;sg - verb;pprs - verb;subs - verb;ger,PARADIGM_ERROR
+clothed,clothes,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+clothed,cloths,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl,POS_PAIR_ERROR
+clothed,cloth,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg,POS_PAIR_ERROR
+clothed,clothe,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+clothed,clothing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,n;sg - verb;pprs - verb;subs - verb;ger,C
+cloth,clothes,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl - verb;pres;p3;sg,PARADIGM_ERROR
+cloth,cloths,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+clothe,clothes,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+clothe,cloths,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,n;pl,POS_PAIR_ERROR
+cloth,clothed,1_2,V;NFIN,1_1,V;PST,n;sg,verb;past - verb;pp,POS_PAIR_ERROR
+clothe,clothed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+cloth,clothe,1_2,V;NFIN,1_2,V;NFIN,n;sg,verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+clothe,cloth,1_2,V;NFIN,1_2,V;NFIN,verb;inf - verb;pres - verb;imp,n;sg,POS_PAIR_ERROR
+cloth,clothing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg,n;sg - verb;pprs - verb;subs - verb;ger,PARADIGM_ERROR
+clothe,clothing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+clothing,clothes,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+clothing,cloths,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl,PARADIGM_ERROR
+clothing,clothed,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+clothing,cloth,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg,PARADIGM_ERROR
+clothing,clothe,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+waves,wave,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,adj; - n;sg - verb;inf - verb;pres - verb;imp,C
+wave,waves,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+subjects,subjected,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+subjects,subject,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,adj; - n;sg - verb;inf - verb;pres - verb;imp,C
+subjects,subjecting,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+subjected,subjects,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+subjected,subject,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adj; - n;sg - verb;inf - verb;pres - verb;imp,C
+subjected,subjecting,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+subject,subjects,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+subject,subjected,1_2,V;NFIN,1_1,V;PST,adj; - n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+subject,subjecting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,adj; - n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+subjecting,subjects,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+subjecting,subjected,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+subjecting,subject,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,adj; - n;sg - verb;inf - verb;pres - verb;imp,C
+blinded,blind,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adj;sint - verb;inf - verb;pres - verb;imp,C
+blind,blinded,1_2,V;NFIN,1_1,V;PST,adj;sint - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+consumed,consume,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+consumed,consuming,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+consume,consumed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+consume,consuming,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+consuming,consumed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+consuming,consume,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+eats,eat,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+eats,eating,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+eat,eats,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+eat,eating,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+eating,eats,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+eating,eat,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+meets,meet,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+meets,meeting,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+meet,meets,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+meet,meeting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+meeting,meets,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+meeting,meet,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+suppose,supposing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+supposing,suppose,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+promotes,promote,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+promote,promotes,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+prays,prayed,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+prays,pray,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+prays,praying,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+prays,prayer,1_0,V;3;SG;PRS,1_5,N;SG,verb;pres;p3;sg,n;sg,POS_PAIR_ERROR
+prayed,prays,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+prayed,pray,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+prayed,praying,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+prayed,prayer,1_1,V;PST,1_5,N;SG,verb;pp - verb;past,n;sg,POS_PAIR_ERROR
+pray,prays,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+pray,prayed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+pray,praying,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+pray,prayer,1_2,V;NFIN,1_5,N;SG,verb;inf - verb;pres - verb;imp,n;sg,POS_PAIR_ERROR
+praying,prays,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+praying,prayed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+praying,pray,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+praying,prayer,1_3,V;V.PTCP;PRS,1_5,N;SG,verb;pprs - verb;subs - verb;ger,n;sg,POS_PAIR_ERROR
+prayer,prays,1_5,N;SG,1_0,V;3;SG;PRS,n;sg,verb;pres;p3;sg,POS_PAIR_ERROR
+prayer,prayed,1_5,N;SG,1_1,V;PST,n;sg,verb;pp - verb;past,POS_PAIR_ERROR
+prayer,pray,1_5,N;SG,1_2,V;NFIN,n;sg,verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+prayer,praying,1_5,N;SG,1_3,V;V.PTCP;PRS,n;sg,verb;pprs - verb;subs - verb;ger,POS_PAIR_ERROR
+due,duly,1_2,V;NFIN,1_4,?,adj;,adv;,POS_PAIR_ERROR
+duly,due,1_4,?,1_2,V;NFIN,adv;,adj;,POS_PAIR_ERROR
+thorns,thorn,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+thorn,thorns,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+baskets,basket,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+basket,baskets,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+springs,spring,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+spring,springs,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+fields,field,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+field,fields,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+woes,woe,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+woe,woes,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+flogged,flogging,1_1,V;PST,1_3,V;V.PTCP;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+flogging,flogged,1_3,V;V.PTCP;PRS,1_1,V;PST,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+rejects,rejected,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+rejects,reject,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+rejected,rejects,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+rejected,reject,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+reject,rejects,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+reject,rejected,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+heads,head,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+heads,heading,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+head,heads,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+head,heading,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+heading,heads,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+heading,head,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+blesses,blessed,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past - adj;,C
+blesses,bless,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+blesses,blessing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+blessed,blesses,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past - adj;,verb;pres;p3;sg,C
+blessed,bless,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,verb;inf - verb;pres - verb;imp,C
+blessed,blessing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past - adj;,n;sg - verb;pprs - verb;subs - verb;ger,C
+bless,blesses,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+bless,blessed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+bless,blessing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+blessing,blesses,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+blessing,blessed,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past - adj;,C
+blessing,bless,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+fled,fly,1_1,V;PST,1_6,ADJ,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+fly,fled,1_6,ADJ,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,PARADIGM_ERROR
+branches,branch,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+branch,branches,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+claims,claimed,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+claims,claim,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+claims,claiming,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+claimed,claims,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+claimed,claim,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+claimed,claiming,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+claim,claims,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+claim,claimed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+claim,claiming,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+claiming,claims,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+claiming,claimed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+claiming,claim,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+drives,drive,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+drives,driving,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+drive,drives,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+drive,driving,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+driving,drives,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+driving,drive,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+hymns,hymn,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+hymn,hymns,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+dawns,dawned,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+dawns,dawn,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+dawned,dawns,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+dawned,dawn,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+dawn,dawns,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+dawn,dawned,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+revealed,reveal,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+reveal,revealed,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+caves,cave,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+cave,caves,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+longs,longed,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+longs,long,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,adv; - adj;sint - verb;inf - verb;pres - verb;imp,C
+longs,longing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+longs,longer,1_0,V;3;SG;PRS,1_5,N;SG,verb;pres;p3;sg,adj;sint;comp,POS_PAIR_ERROR
+longed,longs,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+longed,long,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adv; - adj;sint - verb;inf - verb;pres - verb;imp,C
+longed,longing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,n;sg - verb;pprs - verb;subs - verb;ger,C
+longed,longer,1_1,V;PST,1_5,N;SG,verb;pp - verb;past,adj;sint;comp,POS_PAIR_ERROR
+long,longs,1_2,V;NFIN,1_0,V;3;SG;PRS,adv; - adj;sint - verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+long,longed,1_2,V;NFIN,1_1,V;PST,adv; - adj;sint - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+long,longing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,adv; - adj;sint - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+long,longer,1_2,V;NFIN,1_5,N;SG,adv; - adj;sint - verb;inf - verb;pres - verb;imp,adj;sint;comp,C
+longing,longs,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+longing,longed,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+longing,long,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,adv; - adj;sint - verb;inf - verb;pres - verb;imp,C
+longing,longer,1_3,V;V.PTCP;PRS,1_5,N;SG,n;sg - verb;pprs - verb;subs - verb;ger,adj;sint;comp,POS_PAIR_ERROR
+longer,longs,1_5,N;SG,1_0,V;3;SG;PRS,adj;sint;comp,verb;pres;p3;sg,POS_PAIR_ERROR
+longer,longed,1_5,N;SG,1_1,V;PST,adj;sint;comp,verb;pp - verb;past,POS_PAIR_ERROR
+longer,long,1_5,N;SG,1_2,V;NFIN,adj;sint;comp,adv; - adj;sint - verb;inf - verb;pres - verb;imp,C
+longer,longing,1_5,N;SG,1_3,V;V.PTCP;PRS,adj;sint;comp,n;sg - verb;pprs - verb;subs - verb;ger,POS_PAIR_ERROR
+dressed,dress,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+dressed,dressing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,n;sg - verb;pprs - verb;subs - verb;ger,C
+dress,dressed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+dress,dressing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+dressing,dressed,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+dressing,dress,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+thrones,throne,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+throne,thrones,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+pleases,pleased,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,adj; - verb;past - verb;pp,C
+pleases,please,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,adv; - ij; - verb;inf - verb;pres - verb;imp,C
+pleases,pleasing,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+pleased,pleases,1_1,V;PST,1_0,V;3;SG;PRS,adj; - verb;past - verb;pp,verb;pres;p3;sg,C
+pleased,please,1_1,V;PST,1_2,V;NFIN,adj; - verb;past - verb;pp,adv; - ij; - verb;inf - verb;pres - verb;imp,C
+pleased,pleasing,1_1,V;PST,1_3,V;V.PTCP;PRS,adj; - verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+please,pleases,1_2,V;NFIN,1_0,V;3;SG;PRS,adv; - ij; - verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+please,pleased,1_2,V;NFIN,1_1,V;PST,adv; - ij; - verb;inf - verb;pres - verb;imp,adj; - verb;past - verb;pp,C
+please,pleasing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,adv; - ij; - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+pleasing,pleases,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+pleasing,pleased,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,adj; - verb;past - verb;pp,C
+pleasing,please,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,adv; - ij; - verb;inf - verb;pres - verb;imp,C
+cases,case,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+case,cases,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+hard,hardly,1_2,V;NFIN,1_4,?,n;sg - adj;sint,adv;,POS_PAIR_ERROR
+hard,harder,1_2,V;NFIN,1_5,N;SG,n;sg - adj;sint,adj;sint;comp,C
+hardly,hard,1_4,?,1_2,V;NFIN,adv;,n;sg - adj;sint,POS_PAIR_ERROR
+hardly,harder,1_4,?,1_5,N;SG,adv;,adj;sint;comp,POS_PAIR_ERROR
+harder,hard,1_5,N;SG,1_2,V;NFIN,adj;sint;comp,n;sg - adj;sint,C
+harder,hardly,1_5,N;SG,1_4,?,adj;sint;comp,adv;,POS_PAIR_ERROR
+palaces,palace,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+palace,palaces,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+strain,straining,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+straining,strain,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+cups,cup,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+cup,cups,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+devours,devoured,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;pp - verb;past,C
+devours,devour,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+devoured,devours,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,verb;pres;p3;sg,C
+devoured,devour,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+devour,devours,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+devour,devoured,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+minas,mina,1_0,V;3;SG;PRS,1_2,V;NFIN,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+mina,minas,1_2,V;NFIN,1_0,V;3;SG;PRS,,,SRC_LEXICAL_ERROR TGT_LEXICAL_ERROR
+dares,dared,1_0,V;3;SG;PRS,1_1,V;PST,verb;pres;p3;sg,verb;past - verb;pp,C
+dares,dare,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+dared,dares,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,verb;pres;p3;sg,C
+dared,dare,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,verb;inf - verb;pres - verb;imp,C
+dare,dares,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+dare,dared,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+public,publicly,1_2,V;NFIN,1_4,?,adj; - n;sg,adv;,POS_PAIR_ERROR
+publicly,public,1_4,?,1_2,V;NFIN,adv;,adj; - n;sg,POS_PAIR_ERROR
+discerned,discern,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+discerned,discerning,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+discern,discerned,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+discern,discerning,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+discerning,discerned,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+discerning,discern,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+flowed,flow,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+flowed,flowing,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+flowed,flower,1_1,V;PST,1_5,N;SG,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+flow,flowed,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+flow,flowing,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+flow,flower,1_2,V;NFIN,1_5,N;SG,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+flowing,flowed,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+flowing,flow,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+flowing,flower,1_3,V;V.PTCP;PRS,1_5,N;SG,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+flower,flowed,1_5,N;SG,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,PARADIGM_ERROR
+flower,flow,1_5,N;SG,1_2,V;NFIN,n;sg - verb;inf - verb;pres - verb;imp,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+flower,flowing,1_5,N;SG,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,PARADIGM_ERROR
+warmed,warm,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adj;sint - verb;inf - verb;pres - verb;imp,C
+warmed,warming,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,n;sg - verb;pprs - verb;subs - verb;ger,C
+warmed,warmly,1_1,V;PST,1_4,?,verb;pp - verb;past,adv;,POS_PAIR_ERROR
+warm,warmed,1_2,V;NFIN,1_1,V;PST,adj;sint - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+warm,warming,1_2,V;NFIN,1_3,V;V.PTCP;PRS,adj;sint - verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+warm,warmly,1_2,V;NFIN,1_4,?,adj;sint - verb;inf - verb;pres - verb;imp,adv;,POS_PAIR_ERROR
+warming,warmed,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+warming,warm,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,adj;sint - verb;inf - verb;pres - verb;imp,C
+warming,warmly,1_3,V;V.PTCP;PRS,1_4,?,n;sg - verb;pprs - verb;subs - verb;ger,adv;,POS_PAIR_ERROR
+warmly,warmed,1_4,?,1_1,V;PST,adv;,verb;pp - verb;past,POS_PAIR_ERROR
+warmly,warm,1_4,?,1_2,V;NFIN,adv;,adj;sint - verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+warmly,warming,1_4,?,1_3,V;V.PTCP;PRS,adv;,n;sg - verb;pprs - verb;subs - verb;ger,POS_PAIR_ERROR
+dens,deny,1_0,V;3;SG;PRS,1_6,ADJ,n;pl,verb;inf - verb;pres - verb;imp,POS_PAIR_ERROR
+deny,dens,1_6,ADJ,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,n;pl,POS_PAIR_ERROR
+easily,easier,1_4,?,1_5,N;SG,adv;,adj;sint;comp,POS_PAIR_ERROR
+easier,easily,1_5,N;SG,1_4,?,adj;sint;comp,adv;,POS_PAIR_ERROR
+theirs,their,1_0,V;3;SG;PRS,1_2,V;NFIN,adj;pos;pred - prn;pos;p3;mf;pl,det;pos;sp - det;pos;p3;mf;pl,POS_PAIR_ERROR
+their,theirs,1_2,V;NFIN,1_0,V;3;SG;PRS,det;pos;sp - det;pos;p3;mf;pl,adj;pos;pred - prn;pos;p3;mf;pl,POS_PAIR_ERROR
+deacons,deacon,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+deacon,deacons,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+books,book,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+book,books,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+accounts,account,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+account,accounts,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+learned,learn,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past - adj;,verb;inf - verb;pres - verb;imp,C
+learned,learning,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past - adj;,n;sg - verb;pprs - verb;subs - verb;ger,C
+learn,learned,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past - adj;,C
+learn,learning,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+learning,learned,1_3,V;V.PTCP;PRS,1_1,V;PST,n;sg - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past - adj;,C
+learning,learn,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+drops,drop,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+drop,drops,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+churches,church,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+church,churches,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+keys,key,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,adj; - n;sg - verb;inf - verb;pres - verb;imp,C
+key,keys,1_2,V;NFIN,1_0,V;3;SG;PRS,adj; - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+sides,sided,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+sides,side,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+sided,sides,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+sided,side,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,adv; - n;sg - verb;inf - verb;pres - verb;imp,C
+side,sides,1_2,V;NFIN,1_0,V;3;SG;PRS,adv; - n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+side,sided,1_2,V;NFIN,1_1,V;PST,adv; - n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+limits,limit,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+limit,limits,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+administered,administer,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+administer,administered,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+twins,twin,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+twin,twins,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+visits,visited,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+visits,visit,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+visits,visiting,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+visited,visits,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+visited,visit,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+visited,visiting,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,verb;pprs - verb;subs - verb;ger,C
+visit,visits,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+visit,visited,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+visit,visiting,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+visiting,visits,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+visiting,visited,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+visiting,visit,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+yields,yielded,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;pp - verb;past,C
+yields,yield,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+yields,yielding,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,adj; - verb;pprs - verb;subs - verb;ger,C
+yielded,yields,1_1,V;PST,1_0,V;3;SG;PRS,verb;pp - verb;past,n;pl - verb;pres;p3;sg,C
+yielded,yield,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,n;sg - verb;inf - verb;pres - verb;imp,C
+yielded,yielding,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;pp - verb;past,adj; - verb;pprs - verb;subs - verb;ger,C
+yield,yields,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+yield,yielded,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+yield,yielding,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,adj; - verb;pprs - verb;subs - verb;ger,C
+yielding,yields,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,adj; - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+yielding,yielded,1_3,V;V.PTCP;PRS,1_1,V;PST,adj; - verb;pprs - verb;subs - verb;ger,verb;pp - verb;past,C
+yielding,yield,1_3,V;V.PTCP;PRS,1_2,V;NFIN,adj; - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+dwells,dwell,1_0,V;3;SG;PRS,1_2,V;NFIN,verb;pres;p3;sg,verb;inf - verb;pres - verb;imp,C
+dwells,dwelling,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,verb;pres;p3;sg,n;sg - verb;pprs - verb;subs - verb;ger,C
+dwell,dwells,1_2,V;NFIN,1_0,V;3;SG;PRS,verb;inf - verb;pres - verb;imp,verb;pres;p3;sg,C
+dwell,dwelling,1_2,V;NFIN,1_3,V;V.PTCP;PRS,verb;inf - verb;pres - verb;imp,n;sg - verb;pprs - verb;subs - verb;ger,C
+dwelling,dwells,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,n;sg - verb;pprs - verb;subs - verb;ger,verb;pres;p3;sg,C
+dwelling,dwell,1_3,V;V.PTCP;PRS,1_2,V;NFIN,n;sg - verb;pprs - verb;subs - verb;ger,verb;inf - verb;pres - verb;imp,C
+preparations,preparation,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+preparation,preparations,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+prevented,prevent,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,adv; - verb;inf - verb;pres - verb;imp,C
+prevent,prevented,1_2,V;NFIN,1_1,V;PST,adv; - verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+leads,lead,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+leads,leading,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,adj; - n;sg - verb;pprs - verb;subs - verb;ger,C
+leads,leader,1_0,V;3;SG;PRS,1_5,N;SG,n;pl - verb;pres;p3;sg,n;sg,PARADIGM_ERROR
+lead,leads,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+lead,leading,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,adj; - n;sg - verb;pprs - verb;subs - verb;ger,C
+lead,leader,1_2,V;NFIN,1_5,N;SG,n;sg - verb;inf - verb;pres - verb;imp,n;sg,PARADIGM_ERROR
+leading,leads,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,adj; - n;sg - verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+leading,lead,1_3,V;V.PTCP;PRS,1_2,V;NFIN,adj; - n;sg - verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+leading,leader,1_3,V;V.PTCP;PRS,1_5,N;SG,adj; - n;sg - verb;pprs - verb;subs - verb;ger,n;sg,PARADIGM_ERROR
+leader,leads,1_5,N;SG,1_0,V;3;SG;PRS,n;sg,n;pl - verb;pres;p3;sg,PARADIGM_ERROR
+leader,lead,1_5,N;SG,1_2,V;NFIN,n;sg,n;sg - verb;inf - verb;pres - verb;imp,PARADIGM_ERROR
+leader,leading,1_5,N;SG,1_3,V;V.PTCP;PRS,n;sg,adj; - n;sg - verb;pprs - verb;subs - verb;ger,PARADIGM_ERROR
+drowned,drown,1_1,V;PST,1_2,V;NFIN,verb;pp - verb;past,verb;inf - verb;pres - verb;imp,C
+drown,drowned,1_2,V;NFIN,1_1,V;PST,verb;inf - verb;pres - verb;imp,verb;pp - verb;past,C
+neighbours,neighbour,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl,n;sg,C
+neighbour,neighbours,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg,n;pl,C
+cares,cared,1_0,V;3;SG;PRS,1_1,V;PST,n;pl - verb;pres;p3;sg,verb;past - verb;pp,C
+cares,care,1_0,V;3;SG;PRS,1_2,V;NFIN,n;pl - verb;pres;p3;sg,n;sg - verb;inf - verb;pres - verb;imp,C
+cares,caring,1_0,V;3;SG;PRS,1_3,V;V.PTCP;PRS,n;pl - verb;pres;p3;sg,verb;pprs - verb;subs - verb;ger,C
+cared,cares,1_1,V;PST,1_0,V;3;SG;PRS,verb;past - verb;pp,n;pl - verb;pres;p3;sg,C
+cared,care,1_1,V;PST,1_2,V;NFIN,verb;past - verb;pp,n;sg - verb;inf - verb;pres - verb;imp,C
+cared,caring,1_1,V;PST,1_3,V;V.PTCP;PRS,verb;past - verb;pp,verb;pprs - verb;subs - verb;ger,C
+care,cares,1_2,V;NFIN,1_0,V;3;SG;PRS,n;sg - verb;inf - verb;pres - verb;imp,n;pl - verb;pres;p3;sg,C
+care,cared,1_2,V;NFIN,1_1,V;PST,n;sg - verb;inf - verb;pres - verb;imp,verb;past - verb;pp,C
+care,caring,1_2,V;NFIN,1_3,V;V.PTCP;PRS,n;sg - verb;inf - verb;pres - verb;imp,verb;pprs - verb;subs - verb;ger,C
+caring,cares,1_3,V;V.PTCP;PRS,1_0,V;3;SG;PRS,verb;pprs - verb;subs - verb;ger,n;pl - verb;pres;p3;sg,C
+caring,cared,1_3,V;V.PTCP;PRS,1_1,V;PST,verb;pprs - verb;subs - verb;ger,verb;past - verb;pp,C
+caring,care,1_3,V;V.PTCP;PRS,1_2,V;NFIN,verb;pprs - verb;subs - verb;ger,n;sg - verb;inf - verb;pres - verb;imp,C
+has,hay,1_0,V;3;SG;PRS,1_6,ADJ,verb;pres;p3;sg - verb;pres;p3;sg,n;sg,POS_PAIR_ERROR
+hay,has,1_6,ADJ,1_0,V;3;SG;PRS,n;sg,verb;pres;p3;sg - verb;pres;p3;sg,POS_PAIR_ERROR

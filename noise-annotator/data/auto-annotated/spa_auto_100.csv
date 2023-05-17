@@ -1,0 +1,101 @@
+src word,tgt word,src slot,src predicted MSD,tgt slot,tgt predicted MSD,src apertium tags,tgt apertium tags,annotation
+llamé,llamamos,1_20,V;IND;PST;1;SG;PFV,1_4,V;IND;PST;1;PL;PFV,verb;ifi;p1;sg,verb;ifi;p1;pl - verb;pri;p1;pl,C
+sanos,sanaran,1_3,?,1_19,V;SBJV;PST;3;PL;LGSPEC1,adj;m;pl,verb;pis;p3;pl,POS_PAIR_ERROR
+usan,usaré,1_16,V;IND;PRS;3;PL,1_7,V;IND;FUT;1;SG,verb;pri;p3;pl,verb;fti;p1;sg,C
+reprendan,reprendía,0_8,V;POS;IMP;3;PL,0_1,V;IND;PST;3;SG;IPFV,verb;prs;p3;pl - verb;imp;p3;pl - verb;pri;p3;pl - verb;prs;p3;pl - verb;imp;p3;pl,verb;pii;p3;sg - verb;pii;p1;sg - verb;pii;p3;sg - verb;pii;p1;sg,C
+animando,animó,1_12,V.CVB;PRS,1_15,V;IND;PST;3;SG;PFV,verb;ger,verb;ifi;p3;sg,C
+rechazará,rechazando,1_1,V;IND;FUT;3;SG,1_12,V.CVB;PRS,verb;fti;p3;sg,verb;ger,C
+zanjas,zanja,2_2,V.PTCP;PST;FEM;PL,2_6,V;SBJV;PRS;1;SG,n;f;pl - verb;pri;p2;sg,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,C
+ordenados,ordena,1_18,V.PTCP;PST;MASC;PL,1_11,V;POS;IMP;2;SG,verb;pp;m;pl,verb;pri;p3;sg - verb;imp;p2;sg,C
+mostrarán,mostramos,1_23,V;IND;FUT;3;PL,1_4,V;IND;PST;1;PL;PFV,verb;fti;p3;pl,verb;ifi;p1;pl,C
+rompía,romper,0_1,V;IND;PST;3;SG;IPFV,0_3,V;IND;FUT;2;SG,verb;pii;p3;sg - verb;pii;p1;sg,verb;inf,C
+resucitará,resucitar,1_1,V;IND;FUT;3;SG,1_14,V;NFIN,verb;fti;p3;sg,verb;inf,C
+cantos,cantaré,1_3,?,1_7,V;IND;FUT;1;SG,n;m;pl,verb;fti;p1;sg,POS_PAIR_ERROR
+compre,compraron,1_22,V;POS;IMP;3;SG,1_0,V;IND;PST;3;PL;PFV,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,verb;ifi;p3;pl,C
+prometió,promete,0_2,V;SBJV;PST;1;SG;LGSPEC1,0_14,V;IND;PRS;3;SG,verb;ifi;p3;sg,verb;pri;p3;sg - verb;imp;p2;sg,C
+actuó,actuar,1_15,V;IND;PST;3;SG;PFV,1_14,V;NFIN,verb;ifi;p3;sg,verb;inf,C
+llegarán,llegó,1_23,V;IND;FUT;3;PL,1_15,V;IND;PST;3;SG;PFV,verb;fti;p3;pl,verb;ifi;p3;sg,C
+dedicados,dedicaban,1_18,V.PTCP;PST;MASC;PL,1_6,V;IND;PST;3;PL;IPFV,verb;pp;m;pl,verb;pii;p3;pl,C
+atrevía,atrevían,0_1,V;IND;PST;3;SG;IPFV,0_6,V;COND;3;PL,verb;pii;p3;sg - verb;pii;p1;sg,verb;pii;p3;pl,C
+recoge,recoger,0_14,V;IND;PRS;3;SG,0_3,V;IND;FUT;2;SG,verb;pri;p3;sg - verb;imp;p2;sg - verb;pri;p3;sg - verb;imp;p2;sg,verb;inf - verb;inf,C
+explicaron,explicaba,1_0,V;IND;PST;3;PL;PFV,1_5,V;IND;PST;1;SG;IPFV,verb;ifi;p3;pl,verb;pii;p3;sg - verb;pii;p1;sg,C
+poco,pocos,2_0,V;SBJV;PRS;2;PL,2_5,V;SBJV;FUT;1;PL,adv; - prn;tn;m;sg - prn;tn;nt;sg - adj;ind;m;sg,adj;ind;m;pl - prn;tn;m;pl,C
+sufría,sufrió,0_1,V;IND;PST;3;SG;IPFV,0_2,V;SBJV;PST;1;SG;LGSPEC1,verb;pii;p3;sg - verb;pii;p1;sg,verb;ifi;p3;sg,C
+paso,pasará,1_10,V;IND;PRS;1;SG,1_1,V;IND;FUT;3;SG,adj;m;sg - n;m;sg - verb;pri;p1;sg,verb;fti;p3;sg,C
+llamaré,llamaba,1_7,V;IND;FUT;1;SG,1_5,V;IND;PST;1;SG;IPFV,verb;fti;p1;sg,verb;pii;p3;sg - verb;pii;p1;sg,C
+corrijas,corrijan,2_2,V.PTCP;PST;FEM;PL,2_4,V;IND;PRS;2;PL,verb;prs;p2;sg,verb;prs;p3;pl - verb;imp;p3;pl,C
+cambia,cambiará,1_11,V;POS;IMP;2;SG,1_1,V;IND;FUT;3;SG,verb;pri;p3;sg - verb;imp;p2;sg,verb;fti;p3;sg,C
+burlarse,burló,1_9,V;SBJV;PST;1;SG,1_15,V;IND;PST;3;SG;PFV,verb;inf;prn;enc;ref;p3;mf;sp,verb;ifi;p3;sg,C
+habla,hablado,1_11,V;POS;IMP;2;SG,1_13,V.PTCP;PST;MASC;SG,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,verb;pp;m;sg,C
+visitar,visitaré,1_14,V;NFIN,1_7,V;IND;FUT;1;SG,verb;inf,verb;fti;p1;sg,C
+desnuda,desnudo,2_6,V;SBJV;PRS;1;SG,2_0,V;SBJV;PRS;2;PL,adj;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,adj;m;sg - verb;pri;p1;sg,C
+asustada,asusten,1_2,V.PTCP;PST;FEM;SG,1_17,V;SBJV;PRS;3;PL,adj;f;sg - verb;pp;f;sg,verb;prs;p3;pl - verb;imp;p3;pl,C
+anuncien,anuncie,1_17,V;SBJV;PRS;3;PL,1_22,V;POS;IMP;3;SG,verb;prs;p3;pl - verb;imp;p3;pl,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,C
+sal,salía,0_0,V;POS;IMP;2;PL,0_1,V;IND;PST;3;SG;IPFV,n;f;sg - verb;imp;p2;sg,verb;pii;p3;sg - verb;pii;p1;sg,C
+llamo,llamarlo,1_10,V;IND;PRS;1;SG,1_21,?,verb;pri;p1;sg,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,C
+maltrata,maltrataran,1_11,V;POS;IMP;2;SG,1_19,V;SBJV;PST;3;PL;LGSPEC1,verb;pri;p3;sg - verb;imp;p2;sg,verb;pis;p3;pl,C
+aprovechado,aprovecharon,1_13,V.PTCP;PST;MASC;SG,1_0,V;IND;PST;3;PL;PFV,adj;m;sg - verb;pp;m;sg,verb;ifi;p3;pl,C
+plano,plan,2_0,V;SBJV;PRS;2;PL,2_0,V;SBJV;PRS;2;PL,adj;m;sg - n;m;sg,n;m;sg,PARADIGM_ERROR
+sanaran,sano,1_19,V;SBJV;PST;3;PL;LGSPEC1,1_10,V;IND;PRS;1;SG,verb;pis;p3;pl,adj;m;sg - verb;pri;p1;sg,C
+dormir,dormía,0_13,V;SBJV;PST;1;PL,0_1,V;IND;PST;3;SG;IPFV,verb;inf,verb;pii;p3;sg - verb;pii;p1;sg,C
+amaré,amarlo,1_7,V;IND;FUT;1;SG,1_21,?,verb;fti;p1;sg,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,C
+cuento,cuentos,2_0,V;SBJV;PRS;2;PL,2_5,V;SBJV;FUT;1;PL,n;m;sg - verb;pri;p1;sg,n;m;pl,C
+alejen,aleje,1_17,V;SBJV;PRS;3;PL,1_22,V;POS;IMP;3;SG,verb;prs;p3;pl - verb;imp;p3;pl,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,C
+pida,pido,0_12,V;SBJV;PRS;3;SG,0_0,V;POS;IMP;2;PL,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,verb;pri;p1;sg,C
+comportaban,comportarse,1_6,V;IND;PST;3;PL;IPFV,1_9,V;SBJV;PST;1;SG,verb;pii;p3;pl,verb;inf;prn;enc;ref;p3;mf;sp,C
+reinó,reine,1_15,V;IND;PST;3;SG;PFV,1_22,V;POS;IMP;3;SG,verb;ifi;p3;sg,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,C
+alborote,alborotaron,1_22,V;POS;IMP;3;SG,1_0,V;IND;PST;3;PL;PFV,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,verb;ifi;p3;pl,C
+derrota,derrotarlo,1_11,V;POS;IMP;2;SG,1_21,?,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,C
+tocara,tocaran,1_8,V;SBJV;PST;3;SG;LGSPEC1,1_19,V;SBJV;PST;3;PL;LGSPEC1,verb;pis;p3;sg - verb;pis;p1;sg,verb;pis;p3;pl,C
+presentes,presenten,1_25,V;SBJV;PRS;2;SG,1_17,V;SBJV;PRS;3;PL,adj;mf;pl - n;m;pl - verb;prs;p2;sg,verb;prs;p3;pl - verb;imp;p3;pl,C
+despido,despide,0_0,V;POS;IMP;2;PL,0_14,V;IND;PRS;3;SG,n;m;sg - verb;pri;p1;sg,verb;pri;p3;sg - verb;imp;p2;sg,C
+honrarlo,honraba,1_21,?,1_5,V;IND;PST;1;SG;IPFV,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,verb;pii;p3;sg - verb;pii;p1;sg,C
+estaba,estarán,1_5,V;IND;PST;1;SG;IPFV,1_23,V;IND;FUT;3;PL,verb;pii;p3;sg - verb;pii;p1;sg,verb;fti;p3;pl,C
+estudié,estudiando,1_20,V;IND;PST;1;SG;PFV,1_12,V.CVB;PRS,verb;ifi;p1;sg,verb;ger,C
+termina,terminarán,1_11,V;POS;IMP;2;SG,1_23,V;IND;FUT;3;PL,verb;pri;p3;sg - verb;imp;p2;sg,verb;fti;p3;pl,C
+acompañó,acompañaran,1_15,V;IND;PST;3;SG;PFV,1_19,V;SBJV;PST;3;PL;LGSPEC1,verb;ifi;p3;sg,verb;pis;p3;pl,C
+necesitas,necesite,1_24,V;IND;PRS;2;SG,1_22,V;POS;IMP;3;SG,verb;pri;p2;sg,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,C
+anunciado,anuncian,1_13,V.PTCP;PST;MASC;SG,1_16,V;IND;PRS;3;PL,verb;pp;m;sg,verb;pri;p3;pl,C
+molestan,molestarse,1_16,V;IND;PRS;3;PL,1_9,V;SBJV;PST;1;SG,verb;pri;p3;pl,verb;inf;prn;enc;ref;p3;mf;sp,C
+actuando,actuamos,1_12,V.CVB;PRS,1_4,V;IND;PST;1;PL;PFV,verb;ger,verb;ifi;p1;pl - verb;pri;p1;pl,C
+quemaron,quema,1_0,V;IND;PST;3;PL;PFV,1_11,V;POS;IMP;2;SG,verb;ifi;p3;pl,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,C
+queja,quejen,1_11,V;POS;IMP;2;SG,1_17,V;SBJV;PRS;3;PL,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,verb;prs;p3;pl - verb;imp;p3;pl,C
+acabará,acabado,1_1,V;IND;FUT;3;SG,1_13,V.PTCP;PST;MASC;SG,verb;fti;p3;sg,adj;m;sg - n;m;sg - verb;pp;m;sg,C
+adoraran,adoramos,1_19,V;SBJV;PST;3;PL;LGSPEC1,1_4,V;IND;PST;1;PL;PFV,verb;pis;p3;pl,verb;ifi;p1;pl - verb;pri;p1;pl,C
+aceptaron,aceptando,1_0,V;IND;PST;3;PL;PFV,1_12,V.CVB;PRS,verb;ifi;p3;pl,verb;ger,C
+demuestran,demuestren,2_4,V;IND;PRS;2;PL,2_1,V;SBJV;PRS;1;PL,verb;pri;p3;pl,verb;prs;p3;pl - verb;imp;p3;pl,C
+castigará,castigado,1_1,V;IND;FUT;3;SG,1_13,V.PTCP;PST;MASC;SG,verb;fti;p3;sg,verb;pp;m;sg,C
+dejes,dejarlo,1_25,V;SBJV;PRS;2;SG,1_21,?,n;m;pl - verb;prs;p2;sg,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,C
+persona,personas,2_6,V;SBJV;PRS;1;SG,2_2,V.PTCP;PST;FEM;PL,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,n;f;pl - verb;pri;p2;sg,C
+deba,deben,0_12,V;SBJV;PRS;3;SG,0_10,V;SBJV;PST;2;PL,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg - verb;prs;p3;sg - verb;prs;p1;sg,verb;pri;p3;pl - verb;pri;p3;pl,C
+confiamos,confiará,1_4,V;IND;PST;1;PL;PFV,1_1,V;IND;FUT;3;SG,verb;ifi;p1;pl - verb;pri;p1;pl,verb;fti;p3;sg,C
+conocen,conocer,0_10,V;SBJV;PST;2;PL,0_3,V;IND;FUT;2;SG,verb;pri;p3;pl,verb;inf,C
+construye,construyó,1_22,V;POS;IMP;3;SG,1_15,V;IND;PST;3;SG;PFV,verb;pri;p3;sg - verb;imp;p2;sg,verb;ifi;p3;sg,C
+reinar,reino,1_14,V;NFIN,1_10,V;IND;PRS;1;SG,verb;inf,n;m;sg - verb;pri;p1;sg,C
+terminar,terminara,1_14,V;NFIN,1_8,V;SBJV;PST;3;SG;LGSPEC1,verb;inf,verb;pis;p3;sg - verb;pis;p1;sg,C
+pasen,pasado,1_17,V;SBJV;PRS;3;PL,1_13,V.PTCP;PST;MASC;SG,verb;prs;p3;pl - verb;imp;p3;pl,adj;m;sg - n;m;sg - verb;pp;m;sg,C
+llegará,llegado,1_1,V;IND;FUT;3;SG,1_13,V.PTCP;PST;MASC;SG,verb;fti;p3;sg,verb;pp;m;sg,C
+presenté,presente,1_20,V;IND;PST;1;SG;PFV,1_22,V;POS;IMP;3;SG,verb;ifi;p1;sg,adj;mf;sg - n;m;sg - verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,C
+mataron,matan,1_0,V;IND;PST;3;PL;PFV,1_16,V;IND;PRS;3;PL,verb;ifi;p3;pl,verb;pri;p3;pl,C
+considero,consideró,1_10,V;IND;PRS;1;SG,1_15,V;IND;PST;3;SG;PFV,verb;pri;p1;sg,verb;ifi;p3;sg,C
+buscar,buscando,1_14,V;NFIN,1_12,V.CVB;PRS,verb;inf,verb;ger,C
+pase,pasados,1_22,V;POS;IMP;3;SG,1_18,V.PTCP;PST;MASC;PL,n;m;sg - verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,adj;m;pl - n;m;pl - verb;pp;m;pl,C
+odias,odien,1_24,V;IND;PRS;2;SG,1_17,V;SBJV;PRS;3;PL,verb;pri;p2;sg,verb;prs;p3;pl - verb;imp;p3;pl,C
+bautizando,bautizamos,1_12,V.CVB;PRS,1_4,V;IND;PST;1;PL;PFV,verb;ger,verb;ifi;p1;pl - verb;pri;p1;pl,C
+insistes,insisten,0_4,V;IND;PST;2;PL;IPFV,0_10,V;SBJV;PST;2;PL,verb;pri;p2;sg,verb;pri;p3;pl,C
+atrevía,atreve,0_1,V;IND;PST;3;SG;IPFV,0_14,V;IND;PRS;3;SG,verb;pii;p3;sg - verb;pii;p1;sg,verb;pri;p3;sg - verb;imp;p2;sg,C
+interesado,interesados,1_13,V.PTCP;PST;MASC;SG,1_18,V.PTCP;PST;MASC;PL,adj;m;sg - n;m;sg - verb;pp;m;sg,adj;m;pl - n;m;pl - verb;pp;m;pl,C
+atrevía,atrevido,0_1,V;IND;PST;3;SG;IPFV,0_11,V;NEG;IMP;1;PL,verb;pii;p3;sg - verb;pii;p1;sg,verb;pp;m;sg - adj;m;sg - n;m;sg,C
+hacemos,hace,0_9,V;IND;PRS;1;PL,0_14,V;IND;PRS;3;SG,verb;pri;p1;pl,verb;pri;p3;sg,C
+escupan,escupieron,0_8,V;POS;IMP;3;PL,0_7,V;COND;2;PL,verb;prs;p3;pl - verb;imp;p3;pl,verb;ifi;p3;pl,C
+preocupes,preocupas,1_25,V;SBJV;PRS;2;SG,1_24,V;IND;PRS;2;SG,verb;prs;p2;sg,n;mf;pl - verb;pri;p2;sg,C
+asiento,asientos,2_0,V;SBJV;PRS;2;PL,2_5,V;SBJV;FUT;1;PL,n;m;sg - verb;pri;p1;sg - verb;pri;p1;sg,n;m;pl,C
+sujetar,sujetarse,1_14,V;NFIN,1_9,V;SBJV;PST;1;SG,verb;inf,verb;inf;prn;enc;ref;p3;mf;sp,C
+enseña,enseñarlo,1_11,V;POS;IMP;2;SG,1_21,?,n;f;sg - verb;pri;p3;sg - verb;imp;p2;sg,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,C
+presentaran,presentarlo,1_19,V;SBJV;PST;3;PL;LGSPEC1,1_21,?,verb;pis;p3;pl,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,C
+libros,libre,1_3,?,1_22,V;POS;IMP;3;SG,n;m;pl,adj;mf;sg - verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,POS_PAIR_ERROR
+lloraba,lloraban,1_5,V;IND;PST;1;SG;IPFV,1_6,V;IND;PST;3;PL;IPFV,verb;pii;p3;sg - verb;pii;p1;sg,verb;pii;p3;pl,C
+rechazando,rechaza,1_12,V.CVB;PRS,1_11,V;POS;IMP;2;SG,verb;ger,verb;pri;p3;sg - verb;imp;p2;sg,C
+bajarlo,baje,1_21,?,1_22,V;POS;IMP;3;SG,verb;inf;prn;enc;p3;nt - verb;inf;prn;enc;p3;m;sg,verb;prs;p3;sg - verb;prs;p1;sg - verb;imp;p3;sg,C
+sufrió,sufran,0_2,V;SBJV;PST;1;SG;LGSPEC1,0_8,V;POS;IMP;3;PL,verb;ifi;p3;sg,verb;prs;p3;pl - verb;imp;p3;pl,C
+haremos,harían,0_9,V;IND;PRS;1;PL,0_6,V;COND;3;PL,verb;fti;p1;pl,verb;cni;p3;pl,C
