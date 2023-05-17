@@ -2,7 +2,7 @@
 
 ROOT="/Users/adamwiemerslage/nlp-projects/morphology"
 
-for lang in deu fin isl rus swe; do
+for lang in deu isl rus swe; do
     echo $lang
     ext="bin"
     if [[ $lang = "fin" ]]

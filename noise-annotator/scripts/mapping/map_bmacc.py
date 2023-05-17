@@ -101,7 +101,6 @@ def main(tumpc_fn, gold_fn, outfn):
 
     mapper = Mapper(gold_tags)
     # Get mapping that maximizes micro F1 wrt gold tags
-    # TODO: is micro F1 right? I think yes.
     mapping = mapper.map(tumpc_tags)
 
     # Write mapping

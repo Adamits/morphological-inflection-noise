@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for lang in fin; do #deu isl rus swe; do #fin; do
+for lang in deu isl rus swe; do
     echo $lang
     ext="bin"
     if [[ $lang = "fin" ]]

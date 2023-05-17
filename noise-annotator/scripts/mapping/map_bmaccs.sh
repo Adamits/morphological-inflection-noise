@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for lang in deu fin isl rus swe; do
+for lang in deu isl rus swe; do
     echo "Mapping ${lang}..."
     python -u scripts/mapping/map_bmacc.py \
         --tumpc_fn data/tUMPC/lexicon/${lang}_tumpc.tsv \

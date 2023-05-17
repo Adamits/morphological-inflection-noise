@@ -2,7 +2,7 @@
 
 DATA=data/tUMPC
 
-for lang in deu fin isl rus swe; do
+for lang in deu isl rus swe; do
     python -u scripts/mapping/apply_map.py \
         --map_fn $DATA/um-apertium-mappings/${lang}_map.tsv \
         --apertium_fn $DATA/lexicon/${lang}_apertium.tsv \
