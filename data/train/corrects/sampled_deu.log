@@ -1,0 +1,66 @@
+Loaded 29284 annotations
+Filtering UNK/ERR annotations
+Removed 23564, (80.47%) samples (due to Apertium analysis errors, unknown analyses, or invalid MSDs)
+Found 98 lexical errors
+Including only ('C',) in the dataset
+('SRC_SLOT_ERROR',)
+('TGT_SLOT_ERROR',)
+('C',)
+Including data for ('C',)...
+('PARADIGM_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR')
+('MAPPED_POS_PAIR_ERROR',)
+('TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR',)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('PARADIGM_ERROR',)
+('SRC_LEXICAL_ERROR',)
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR')
+('TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('TGT_LEXICAL_ERROR', 'SRC_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_SLOT_ERROR')
+('TGT_LEXICAL_ERROR',)
+('TGT_POS_ERROR',)
+('SRC_POS_ERROR',)
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+
+ Existing samples distribution:
+('C',) --- 2662 (100.0%)
+Summarizing sampled data...
+2662 total samples
+
+Found 0 (0.0%) samples with an MSD that does not actually occur in UniMorph
+Invalid tags:
+set()
+
+Output dataset full fine-grained annotation distribution:
+C -- 2662 (100.0%)
+
+Output dataset percents of each coarse grained tag
+C -- 2662 (100.0%)
+
+Distribution of parts of speech in sampled data:
+V -- 4948 (92.94%)
+N -- 376 (7.06%)
+Writing 2662 total samples to data/sampled/corrects/deu_sampled.tsv

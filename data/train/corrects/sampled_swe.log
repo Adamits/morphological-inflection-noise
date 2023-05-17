@@ -1,0 +1,62 @@
+Loaded 45096 annotations
+Filtering UNK/ERR annotations
+Removed 40392, (89.57%) samples (due to Apertium analysis errors, unknown analyses, or invalid MSDs)
+Found 688 lexical errors
+Including only ('C',) in the dataset
+('SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('TGT_SLOT_ERROR',)
+('C',)
+Including data for ('C',)...
+('SRC_SLOT_ERROR',)
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('MAPPED_POS_PAIR_ERROR',)
+('POS_PAIR_ERROR',)
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('TGT_LEXICAL_ERROR', 'SRC_SLOT_ERROR')
+('TGT_LEXICAL_ERROR',)
+('SRC_LEXICAL_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR',)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR',)
+('TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_SLOT_ERROR')
+
+ Existing samples distribution:
+('C',) --- 768 (100.0%)
+Summarizing sampled data...
+768 total samples
+
+Found 26 (3.39%) samples with an MSD that does not actually occur in UniMorph
+Invalid tags:
+{'N;DEF;PL', 'ADJ;INDF;GEN;PL', 'ADJ;DEF;PL', 'ADJ;PRS', 'N;INDF;PL'}
+
+Output dataset full fine-grained annotation distribution:
+C -- 768 (100.0%)
+
+Output dataset percents of each coarse grained tag
+C -- 768 (100.0%)
+
+Distribution of parts of speech in sampled data:
+V -- 832 (54.17%)
+V.PTCP -- 4 (0.26%)
+ADJ -- 44 (2.86%)
+N -- 656 (42.71%)
+Writing 768 total samples to data/sampled/corrects/swe_sampled.tsv

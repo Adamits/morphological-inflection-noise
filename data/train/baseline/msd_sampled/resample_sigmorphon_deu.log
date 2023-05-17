@@ -1,0 +1,26 @@
+Found 3955 correct samples to replace from SIGMORPHON training
+Performing initial sampling to match lemmas and MSDs as much as possible
+Found 639 replacement samples with lemmas overlapping the corrects
+Initial sampling complete (807). Sampling more seen/unseen lemmas 
+from leftover SIGMORPHON (2207)
+Corrects seen/unseen: 195//3760
+Number of new samples with seen lemma:33
+Number of new samples with unseen lemma:774
+Requesting 162 seen lemmas from sigmorphon (182)
+Requesting 2986 unseen lemmas from sigmorphon (2025)
+Resampling from 2994 SIGMORPHON samples
+WARNING: Ran out of new samples before replacing all corrects!
+Replaced corrects with new samples. 0 unused new samples remain.
+166 (17.22)% SIGMOPRPHON dev are seen in original SIGMOPRPHON train
+
+Summarizing dataset modifications after resampling:
+Resampled dataset lemma overlap with old: 49.18%
+Resampled dataset MSD overlap with old: 84.35%
+old seen/unseen: 238/5482
+new seen/unseen: 248/5472
+135 too many overlapping lemma types in resampled data, replacing some...
+Removing samples with lemmas in ['überschatten', 'hinterziehen', 'assimilieren', 'gestatten', 'stapeln', 'argumentieren', 'erklingen', 'kauen', 'blamieren', 'vergiften', 'Sünder', 'wallfahrten', 'Genkinit', 'bölken', 'bekriegen', 'bewässern', 'verglühen', 'verkleinern', 'fabulieren', 'bescheißen', 'grienen', 'fragmentieren', 'pendeln', 'grausen', 'erliegen', 'Wanderfalke', 'Europameister', 'funktionalisieren', 'Oberbegriff', 'einigen', 'parkieren', 'Palme', 'tappen', 'Unterschlagung', 'Adeliepinguin', 'Artischocke', 'immunisieren', 'begnadigen', 'Fokus', 'reimen', 'erstehen', 'reparieren', 'Wachtel', 'dolmetschen', 'Funkfeuer', 'verschicken', 'Anstecker', 'appliziren', 'bedienen', 'bimmeln', 'wispern', 'absolvieren', 'mästen', 'Panamaer', 'Kairiner', 'Zunge', 'gewärtigen', 'Puffersystem', 'orgeln', 'präsentieren', 'verschränken', 'Schnute', 'Schickse', 'inspirieren', 'duckmäusern', 'beneiden', 'verlöten', 'Panzerschreck', 'Durchbruch', 'erobern', 'klicken', 'boykottieren', 'separieren', 'Trockendock', 'schäumen', 'Sonderbericht', 'trauern', 'inszenieren', 'beteuern', 'verzeichnen', 'Herzchen', 'haschieren', 'nähen', 'Kissenschlacht', 'Pfahl', 'changieren', 'verallgemeinern', 'demoralisieren', 'Selbstsicherheit', 'bummeln', 'Hörspiel', 'colorieren', 'vertonen', 'Freibrief', 'Gecko', 'kontaktieren', 'Feldzug', 'versteigern', 'kreieren', 'hantieren', 'hinterlegen', 'dekompilieren', 'lockern', 'verkapseln', 'Sportlerin', 'beklagen', 'Landesverräterin', 'Argentit', 'wetzen', 'Augenglas', 'Zahnfleischentzündung', 'ölen', 'überweisen', 'generalisieren', 'Fussel', 'hicksen', 'beeindrucken', 'Chelatkomplex', 'verschärfen', 'lauschen', 'schieben', 'idealisieren', 'Regierung', 'hämmern', 'entziehen', 'parlieren', 'Präservativ', 'Beteiligte', 'Ahn', 'schummeln', 'verwechseln', 'Steuerbord', 'gabeln', 'Stadtbezirk', 'Flussbett']
+Previous test set lemma coverage: 37 (3.84)%
+New test set lemma coverage: 172 (17.84)%
+
+Writing to data/sampled/baseline/msd_sampled/deu_sampled_sigmorphon_resampling.tsv

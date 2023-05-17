@@ -1,0 +1,69 @@
+Loaded 105492 annotations
+Filtering UNK/ERR annotations
+Removed 92341, (87.53%) samples (due to Apertium analysis errors, unknown analyses, or invalid MSDs)
+Found 139 lexical errors
+Including only ('POS_PAIR_ERROR;SLOT_ERROR', 'C') in the dataset
+('C',)
+Including data for ('C',)...
+('TGT_SLOT_ERROR',)
+('POS_PAIR_ERROR',)
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'TGT_SLOT_ERROR')
+('SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR')
+Including data for ('POS_PAIR_ERROR', 'SLOT_ERROR')...
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR')
+Including data for ('POS_PAIR_ERROR', 'SLOT_ERROR')...
+('PARADIGM_ERROR',)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+Including data for ('POS_PAIR_ERROR', 'SLOT_ERROR')...
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR')
+('TGT_LEXICAL_ERROR',)
+('SRC_LEXICAL_ERROR',)
+('TGT_LEXICAL_ERROR', 'SRC_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+
+ Existing samples distribution:
+('C',) --- 7194 (97.35%)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR') --- 65 (0.88%)
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR') --- 65 (0.88%)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR') --- 66 (0.89%)
+Summarizing sampled data...
+7390 total samples
+
+Found 883 (11.95%) samples with an MSD that does not actually occur in UniMorph
+Invalid tags:
+{'V;IMP;1;PL', 'ADJ;ACC;PL', 'V.CVB', 'ADJ;ACC;MASC;SG', 'V;2;PL'}
+
+Output dataset full fine-grained annotation distribution:
+C -- 7194 (97.35%)
+POS_PAIR_ERROR;SRC_SLOT_ERROR;TGT_SLOT_ERROR -- 66 (0.89%)
+POS_PAIR_ERROR;SRC_SLOT_ERROR -- 65 (0.88%)
+POS_PAIR_ERROR;TGT_SLOT_ERROR -- 65 (0.88%)
+
+Output dataset percents of each coarse grained tag
+C -- 7194 (97.35%)
+POS_PAIR_ERROR;SLOT_ERROR -- 196 (2.65%)
+
+Distribution of parts of speech in sampled data:
+V.CVB -- 264 (1.79%)
+V -- 6754 (45.7%)
+V.PTCP -- 144 (0.97%)
+ADJ -- 3561 (24.09%)
+N -- 4057 (27.45%)
+Writing 7390 total samples to data/sampled/add-one-in/POS_PAIR_ERROR;SLOT_ERROR/rus_sampled.tsv

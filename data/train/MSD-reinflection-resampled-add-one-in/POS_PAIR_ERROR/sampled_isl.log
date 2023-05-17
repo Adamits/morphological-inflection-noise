@@ -1,0 +1,4 @@
+Including only ('POS_PAIR_ERROR', 'C') in the dataset
+POS_PAIR_ERROR -- 13.61%
+C -- 86.39%
+Writing 2080 total samples to data/sampled/MSD-reinflection-resampled-add-one-in/POS_PAIR_ERROR/isl_sampled.tsv

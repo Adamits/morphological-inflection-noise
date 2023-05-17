@@ -1,0 +1,6 @@
+Including only ('LEXICAL_ERROR', 'C') in the dataset
+C -- 75.23%
+TGT_LEXICAL_ERROR -- 10.02%
+SRC_LEXICAL_ERROR -- 12.96%
+SRC_LEXICAL_ERROR;TGT_LEXICAL_ERROR -- 1.78%
+Writing 2245 total samples to data/sampled/MSD-reinflection-resampled-add-one-in/LEXICAL_ERROR/swe_sampled.tsv

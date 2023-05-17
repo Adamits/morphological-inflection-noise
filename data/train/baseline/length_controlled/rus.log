@@ -1,0 +1,208 @@
+Reading tUMPC and stats
+Reading UniMorph inflection pairs
+Filtering uni pairs to only those with MSDs in the set of tUMPC correct data
+Second filtering stage: keeping only those with lemmas in tUMPC
+
+ 559 out of 28068 UniMorph lemmas overlap with tUMPC correct data.
+This comprises 9109176 pairs.
+Got 177682 UniMorph samples with both lemma AND msd overlapping tUMPC corrects
+
+SAMPLING from additional lemmas to increase diversity.
+Adding 12 new lemmas comprising 2494 pairs.
+Computing word_length distribution
+Found for tUMPC:
+5: 903
+8: 1130
+7: 1465
+9: 1013
+6: 1290
+4: 463
+10: 482
+13: 62
+12: 134
+11: 133
+3: 107
+14: 12
+Found for UniMorph:
+7: 13937
+6: 11644
+10: 6434
+4: 2883
+9: 10150
+8: 13217
+5: 7141
+13: 2270
+11: 3573
+14: 1652
+16: 616
+15: 1102
+12: 2526
+3: 662
+17: 250
+18: 170
+20: 120
+19: 150
+21: 20
+Overlapping lemmas in tUMPC CORRECT data: 2.0%
+Overlapping lemmas in UniMorph: 100.0%
+
+Overlapping MSDs in tUMPC CORRECT data: 68.0%
+Overlapping MSDs in UniMorph: 100.0%
+Getting valid UniMorph pairs
+Sampling from the same lengths...
+sampling 903 pairs of length 5 from UniMorph. 750 unique targets of 7141 pairs
+sampling 1130 pairs of length 8 from UniMorph. 1369 unique targets of 13217 pairs
+sampling 1465 pairs of length 7 from UniMorph. 1445 unique targets of 13937 pairs
+sampling 1013 pairs of length 9 from UniMorph. 1057 unique targets of 10150 pairs
+sampling 1290 pairs of length 6 from UniMorph. 1217 unique targets of 11644 pairs
+sampling 463 pairs of length 4 from UniMorph. 301 unique targets of 2883 pairs
+sampling 482 pairs of length 10 from UniMorph. 660 unique targets of 6434 pairs
+sampling 62 pairs of length 13 from UniMorph. 235 unique targets of 2270 pairs
+sampling 134 pairs of length 12 from UniMorph. 264 unique targets of 2526 pairs
+sampling 133 pairs of length 11 from UniMorph. 369 unique targets of 3573 pairs
+sampling 107 pairs of length 3 from UniMorph. 68 unique targets of 662 pairs
+sampling 12 pairs of length 14 from UniMorph. 167 unique targets of 1652 pairs
+Sampled 7194 new corrects
+Writing to /Users/adamwiemerslage/nlp-projects/morphology/noisy-inflection/noise-annotator/data/sampled/baseline/TEST_length_controlled/rus_sampled_sigmorphon_resampling_reinflection.tsv with corrects replaced by unimorph reinfl samples
+OLD tUMPC Correct lemma overlap with test set: 2.0%
+OLD tUMPC Correct msd overlap with test set: 68.0%
+OLD tUMPC word length counts:
+5: 903
+8: 1130
+7: 1465
+9: 1013
+6: 1290
+4: 463
+10: 482
+13: 62
+12: 134
+11: 133
+3: 107
+14: 12
+New Correct lemma overlap with tUMPC corrects: 36.0%
+New Correct msd overlap with tUMPC corrects: 94.0%
+New Correct lemma overlap with test set: 2.0%
+New Correct msd overlap with test set: 68.0%
+New word length counts:
+8: 1130
+13: 62
+6: 1290
+5: 903
+9: 1013
+4: 463
+7: 1465
+12: 134
+10: 482
+11: 133
+3: 107
+14: 12
+
+Old MSD counts:
+ADJ;ACC;FEM;SG: 124
+ADJ;ACC;MASC;SG: 123
+ADJ;ACC;NEUT;SG: 15
+ADJ;ACC;PL: 206
+ADJ;ESS;FEM;SG: 193
+ADJ;ESS;PL: 66
+ADJ;FEM;SG;LGSPEC1: 26
+ADJ;GEN;MASC;SG: 212
+ADJ;GEN;NEUT;SG: 54
+ADJ;INS;FEM;SG: 191
+ADJ;INS;MASC;SG: 187
+ADJ;INS;NEUT;SG: 62
+ADJ;MASC;SG;LGSPEC1: 17
+ADJ;NOM;FEM;SG: 105
+ADJ;NOM;MASC;SG: 42
+ADJ;NOM;NEUT;SG: 88
+ADJ;NOM;PL: 68
+ADJ;PL;LGSPEC1: 1
+N;ACC;PL: 28
+N;ACC;SG: 28
+N;DAT;PL: 89
+N;DAT;SG: 166
+N;ESS;PL: 107
+N;ESS;SG: 258
+N;GEN;PL: 220
+N;GEN;SG: 228
+N;INS;PL: 111
+N;INS;SG: 209
+N;NOM;PL: 174
+N;NOM;SG: 146
+V.CVB;PRS: 16
+V.CVB;PST: 2
+V.PTCP;ACT;PRS: 26
+V.PTCP;ACT;PST: 2
+V.PTCP;PASS;PST: 4
+V;FUT;1;SG: 3
+V;FUT;2;PL: 335
+V;FUT;2;SG: 52
+V;FUT;3;PL: 73
+V;FUT;3;SG: 104
+V;IMP;1;PL: 63
+V;IMP;2;PL: 278
+V;IMP;2;SG: 445
+V;NFIN: 644
+V;PRS;1;PL: 63
+V;PRS;1;SG: 65
+V;PRS;2;PL: 65
+V;PRS;2;SG: 71
+V;PRS;3;PL: 85
+V;PRS;3;SG: 85
+V;PST;PL: 661
+V;PST;SG;FEM: 303
+V;PST;SG;MASC: 53
+V;PST;SG;NEUT: 152
+
+NEW MSD counts:
+ADJ;ACC;FEM;SG: 126
+ADJ;ACC;NEUT;SG: 53
+ADJ;ESS;FEM;SG: 46
+ADJ;ESS;PL: 113
+ADJ;FEM;SG;LGSPEC1: 97
+ADJ;GEN;MASC;SG: 41
+ADJ;GEN;NEUT;SG: 49
+ADJ;INS;FEM;SG: 55
+ADJ;INS;MASC;SG: 58
+ADJ;INS;NEUT;SG: 46
+ADJ;MASC;SG;LGSPEC1: 113
+ADJ;NOM;FEM;SG: 109
+ADJ;NOM;MASC;SG: 83
+ADJ;NOM;NEUT;SG: 58
+ADJ;NOM;PL: 98
+ADJ;PL;LGSPEC1: 110
+N;ACC;PL: 35
+N;ACC;SG: 100
+N;DAT;PL: 142
+N;DAT;SG: 149
+N;ESS;PL: 138
+N;ESS;SG: 141
+N;GEN;PL: 157
+N;GEN;SG: 95
+N;INS;PL: 123
+N;INS;SG: 161
+N;NOM;PL: 93
+N;NOM;SG: 110
+V.CVB;PRS: 142
+V.CVB;PST: 340
+V.PTCP;ACT;PRS: 97
+V.PTCP;ACT;PST: 204
+V.PTCP;PASS;PST: 133
+V;FUT;1;SG: 237
+V;FUT;2;PL: 113
+V;FUT;2;SG: 163
+V;FUT;3;PL: 188
+V;FUT;3;SG: 197
+V;IMP;2;PL: 221
+V;IMP;2;SG: 329
+V;NFIN: 278
+V;PRS;1;PL: 119
+V;PRS;1;SG: 114
+V;PRS;2;PL: 100
+V;PRS;2;SG: 109
+V;PRS;3;PL: 136
+V;PRS;3;SG: 119
+V;PST;PL: 290
+V;PST;SG;FEM: 285
+V;PST;SG;MASC: 300
+V;PST;SG;NEUT: 281
+Wrote 7194 newly sampled corrects, and all noise

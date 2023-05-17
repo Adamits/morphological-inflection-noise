@@ -1,0 +1,63 @@
+Loaded 105492 annotations
+Filtering UNK/ERR annotations
+Removed 92341, (87.53%) samples (due to Apertium analysis errors, unknown analyses, or invalid MSDs)
+Found 139 lexical errors
+Including only ('POS_PAIR_ERROR', 'C') in the dataset
+('C',)
+Including data for ('C',)...
+('TGT_SLOT_ERROR',)
+('POS_PAIR_ERROR',)
+Including data for ('POS_PAIR_ERROR',)...
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'TGT_SLOT_ERROR')
+('SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR',)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR')
+('TGT_LEXICAL_ERROR',)
+('SRC_LEXICAL_ERROR',)
+('TGT_LEXICAL_ERROR', 'SRC_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+
+ Existing samples distribution:
+('C',) --- 7194 (95.72%)
+('POS_PAIR_ERROR',) --- 322 (4.28%)
+Summarizing sampled data...
+7516 total samples
+
+Found 872 (11.6%) samples with an MSD that does not actually occur in UniMorph
+Invalid tags:
+{'V;IMP;1;PL', 'ADJ;ACC;PL', 'V;2;PL', 'V.CVB', 'ADJ;ACC;MASC;SG'}
+
+Output dataset full fine-grained annotation distribution:
+C -- 7194 (95.72%)
+POS_PAIR_ERROR -- 322 (4.28%)
+
+Output dataset percents of each coarse grained tag
+C -- 7194 (95.72%)
+POS_PAIR_ERROR -- 322 (4.28%)
+
+Distribution of parts of speech in sampled data:
+V.CVB -- 316 (2.1%)
+V -- 6835 (45.47%)
+V.PTCP -- 221 (1.47%)
+ADJ -- 3657 (24.33%)
+N -- 4003 (26.63%)
+Writing 7516 total samples to data/sampled/add-one-in/POS_PAIR_ERROR/rus_sampled.tsv

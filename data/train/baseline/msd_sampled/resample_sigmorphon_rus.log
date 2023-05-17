@@ -1,0 +1,25 @@
+Found 7194 correct samples to replace from SIGMORPHON training
+Performing initial sampling to match lemmas and MSDs as much as possible
+Found 717 replacement samples with lemmas overlapping the corrects
+Initial sampling complete (785). Sampling more seen/unseen lemmas 
+from leftover SIGMORPHON (7376)
+Corrects seen/unseen: 59//7135
+Number of new samples with seen lemma:14
+Number of new samples with unseen lemma:771
+Requesting 45 seen lemmas from sigmorphon (254)
+Requesting 6364 unseen lemmas from sigmorphon (7122)
+Resampling from 7194 SIGMORPHON samples
+Replaced corrects with new samples. 0 unused new samples remain.
+221 (22.55)% SIGMOPRPHON dev are seen in original SIGMOPRPHON train
+
+Summarizing dataset modifications after resampling:
+Resampled dataset lemma overlap with old: 30.84%
+Resampled dataset MSD overlap with old: 79.98%
+old seen/unseen: 136/13015
+new seen/unseen: 136/13015
+37 too many overlapping lemma types in resampled data, replacing some...
+Removing samples with lemmas in ['слабенький', 'шипящий', 'осторожность', 'всадить', 'оловоносный', 'прошибить', 'понятливый', 'этажерка', 'единоличный', 'приметный', 'спёртый', 'уёбок', 'ассоциироваться', 'гистограмма', 'законный', 'сакральный', 'эквидистантный', 'спрыгнуть', 'утвердительный', 'выпуск', 'наружный', 'вымостить', 'мелодрама', 'сиятельство', 'тормоз', 'скрежетать', 'приоткрываться', 'пуховый', 'вогнутый', 'поклон', 'отомстить', 'свойственный', 'механизировать', 'заскочить', 'детектор', 'беситься', 'самостоятельный']
+Previous test set lemma coverage: 19 (1.94)%
+New test set lemma coverage: 19 (1.94)%
+
+Writing to data/sampled/baseline/msd_sampled/rus_sampled_sigmorphon_resampling.tsv

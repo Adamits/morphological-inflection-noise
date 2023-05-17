@@ -1,0 +1,25 @@
+Found 5294 correct samples to replace from SIGMORPHON training
+Performing initial sampling to match lemmas and MSDs as much as possible
+Found 742 replacement samples with lemmas overlapping the corrects
+Initial sampling complete (796). Sampling more seen/unseen lemmas 
+from leftover SIGMORPHON (9143)
+Corrects seen/unseen: 38//5256
+Number of new samples with seen lemma:8
+Number of new samples with unseen lemma:788
+Requesting 30 seen lemmas from sigmorphon (365)
+Requesting 4468 unseen lemmas from sigmorphon (8778)
+Resampling from 5294 SIGMORPHON samples
+Replaced corrects with new samples. 0 unused new samples remain.
+294 (30.0)% SIGMOPRPHON dev are seen in original SIGMOPRPHON train
+
+Summarizing dataset modifications after resampling:
+Resampled dataset lemma overlap with old: 14.24%
+Resampled dataset MSD overlap with old: 54.36%
+old seen/unseen: 38/5256
+new seen/unseen: 38/5256
+22 too many overlapping lemma types in resampled data, replacing some...
+Removing samples with lemmas in ['плавучий', 'вогнутый', 'продвинутый', 'тупоголовый', 'костромской', 'долговечный', 'слабенький', 'законный', 'капотаж', 'расстёгивать', 'сглотнуть', 'удерживаться', 'ассоциироваться', 'забираться', 'германий', 'бесценный', 'мудрый', 'хариус', 'спёртый', 'важный', 'сосредоточенный', 'тролль']
+Previous test set lemma coverage: 10 (1.02)%
+New test set lemma coverage: 10 (1.02)%
+
+Writing to data/sampled/corrects/rus_sampled_sigmorphon_resampling.tsv

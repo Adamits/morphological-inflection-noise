@@ -1,0 +1,157 @@
+Reading tUMPC and stats
+Reading UniMorph inflection pairs
+Filtering uni pairs to only those with MSDs in the set of tUMPC correct data
+Second filtering stage: keeping only those with lemmas in tUMPC
+
+ 339 out of 10553 UniMorph lemmas overlap with tUMPC correct data.
+This comprises 566460 pairs.
+Got 20593 UniMorph samples with both lemma AND msd overlapping tUMPC corrects
+
+SAMPLING from additional lemmas to increase diversity.
+Adding 11 new lemmas comprising 593 pairs.
+Computing word_length distribution
+Found for tUMPC:
+8: 217
+10: 73
+9: 120
+5: 340
+7: 251
+6: 338
+11: 46
+4: 215
+3: 53
+12: 17
+2: 10
+13: 5
+15: 2
+14: 1
+17: 1
+Found for UniMorph:
+6: 3745
+7: 3449
+8: 2788
+3: 377
+13: 91
+5: 2919
+9: 1574
+4: 1542
+10: 1000
+12: 279
+2: 54
+11: 407
+15: 34
+17: 31
+14: 58
+16: 34
+18: 14
+Overlapping lemmas in tUMPC CORRECT data: 3.0%
+Overlapping lemmas in UniMorph: 98.0%
+
+Overlapping MSDs in tUMPC CORRECT data: 57.99999999999999%
+Overlapping MSDs in UniMorph: 100.0%
+Getting valid UniMorph pairs
+Sampling from the same lengths...
+sampling 217 pairs of length 8 from UniMorph. 323 unique targets of 2788 pairs
+sampling 73 pairs of length 10 from UniMorph. 118 unique targets of 1000 pairs
+sampling 120 pairs of length 9 from UniMorph. 181 unique targets of 1574 pairs
+sampling 340 pairs of length 5 from UniMorph. 352 unique targets of 2919 pairs
+sampling 251 pairs of length 7 from UniMorph. 410 unique targets of 3449 pairs
+sampling 338 pairs of length 6 from UniMorph. 459 unique targets of 3745 pairs
+sampling 46 pairs of length 11 from UniMorph. 51 unique targets of 407 pairs
+sampling 215 pairs of length 4 from UniMorph. 189 unique targets of 1542 pairs
+sampling 53 pairs of length 3 from UniMorph. 50 unique targets of 377 pairs
+sampling 17 pairs of length 12 from UniMorph. 36 unique targets of 279 pairs
+sampling 10 pairs of length 2 from UniMorph. 8 unique targets of 54 pairs
+sampling 5 pairs of length 13 from UniMorph. 13 unique targets of 91 pairs
+sampling 2 pairs of length 15 from UniMorph. 5 unique targets of 34 pairs
+sampling 1 pairs of length 14 from UniMorph. 8 unique targets of 58 pairs
+sampling 1 pairs of length 17 from UniMorph. 5 unique targets of 31 pairs
+Sampled 1689 new corrects
+Writing to /Users/adamwiemerslage/nlp-projects/morphology/noisy-inflection/noise-annotator/data/sampled/baseline/TEST_length_controlled/swe_sampled_sigmorphon_resampling_reinflection.tsv with corrects replaced by unimorph reinfl samples
+OLD tUMPC Correct lemma overlap with test set: 3.0%
+OLD tUMPC Correct msd overlap with test set: 57.99999999999999%
+OLD tUMPC word length counts:
+8: 217
+10: 73
+9: 120
+5: 340
+7: 251
+6: 338
+11: 46
+4: 215
+3: 53
+12: 17
+2: 10
+13: 5
+15: 2
+14: 1
+17: 1
+New Correct lemma overlap with tUMPC corrects: 30.0%
+New Correct msd overlap with tUMPC corrects: 76.0%
+New Correct lemma overlap with test set: 3.0%
+New Correct msd overlap with test set: 57.99999999999999%
+New word length counts:
+6: 338
+3: 53
+5: 340
+4: 215
+11: 46
+7: 251
+10: 73
+9: 120
+8: 217
+13: 5
+2: 10
+12: 17
+15: 2
+14: 1
+17: 1
+
+Old MSD counts:
+ADJ;DEF;MASC;SG: 5
+ADJ;DEF;PL: 114
+ADJ;INDF;GEN;PL: 54
+ADJ;INDF;MASC+FEM;SG: 35
+ADJ;INDF;NEUT;SG: 88
+ADJ;PRS: 9
+N;DEF;GEN;SG: 21
+N;DEF;NOM;PL: 34
+N;DEF;NOM;SG: 119
+N;DEF;PL: 1
+N;DEF;SG: 1
+N;INDF;GEN;PL: 32
+N;INDF;GEN;SG: 25
+N;INDF;NOM;PL: 8
+N;INDF;NOM;SG: 182
+N;INDF;PL: 2
+V.PTCP;PRS: 3
+V.PTCP;PST: 38
+V;ACT;IND;PRS: 34
+V;ACT;IND;PST: 107
+V;ACT;NFIN: 333
+V;IMP: 95
+V;PASS;IND;PRS: 184
+V;PASS;IND;PST: 95
+V;PASS;NFIN: 70
+
+NEW MSD counts:
+ADJ;DEF;MASC;SG: 40
+ADJ;INDF;MASC+FEM;SG: 46
+ADJ;INDF;NEUT;SG: 45
+N;DEF;GEN;SG: 50
+N;DEF;NOM;PL: 38
+N;DEF;NOM;SG: 56
+N;INDF;GEN;PL: 35
+N;INDF;GEN;SG: 58
+N;INDF;NOM;PL: 36
+N;INDF;NOM;SG: 60
+V.PTCP;PRS: 128
+V.PTCP;PST: 142
+V;ACT;IND;PRS: 145
+V;ACT;IND;PST: 146
+V;ACT;NFIN: 139
+V;IMP: 145
+V;PASS;IND;PRS: 119
+V;PASS;IND;PST: 146
+V;PASS;NFIN: 115
+Wrote 1689 newly sampled corrects, and all noise

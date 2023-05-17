@@ -1,0 +1,72 @@
+Loaded 105492 annotations
+Filtering UNK/ERR annotations
+Removed 92341, (87.53%) samples (due to Apertium analysis errors, unknown analyses, or invalid MSDs)
+Found 139 lexical errors
+Including only ('LEXICAL_ERROR', 'C') in the dataset
+('C',)
+Including data for ('C',)...
+('TGT_SLOT_ERROR',)
+('POS_PAIR_ERROR',)
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'TGT_SLOT_ERROR')
+('SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR',)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR')
+('TGT_LEXICAL_ERROR',)
+Including data for ('LEXICAL_ERROR',)...
+('SRC_LEXICAL_ERROR',)
+Including data for ('LEXICAL_ERROR',)...
+('TGT_LEXICAL_ERROR', 'SRC_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR')
+Including data for ('LEXICAL_ERROR',)...
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+
+ Existing samples distribution:
+('C',) --- 7194 (98.21%)
+('TGT_LEXICAL_ERROR',) --- 14 (0.19%)
+('SRC_LEXICAL_ERROR',) --- 99 (1.35%)
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR') --- 18 (0.25%)
+Summarizing sampled data...
+7325 total samples
+
+Found 939 (12.82%) samples with an MSD that does not actually occur in UniMorph
+Invalid tags:
+{'V;2;PL', 'DET;PL', 'PRN;ACC;3;SG', 'PRN;NOM;3;SG', 'PRN;NOM;2;SG', 'ADJ;ACC;PL', 'V;IMP;1;PL', 'PRN;DAT;3;SG', 'V.CVB', 'PRN;INS;3;SG', 'PRN;DAT;SG', 'DET;ACC;PL', 'NUM;GEN;PL', 'NUM;NOM;PL', 'ADJ;ACC;MASC;SG'}
+
+Output dataset full fine-grained annotation distribution:
+C -- 7194 (98.21%)
+SRC_LEXICAL_ERROR -- 99 (1.35%)
+SRC_LEXICAL_ERROR;TGT_LEXICAL_ERROR -- 18 (0.25%)
+TGT_LEXICAL_ERROR -- 14 (0.19%)
+
+Output dataset percents of each coarse grained tag
+C -- 7194 (98.21%)
+LEXICAL_ERROR -- 131 (1.79%)
+
+Distribution of parts of speech in sampled data:
+V.CVB -- 258 (1.76%)
+V -- 6668 (45.52%)
+V.PTCP -- 142 (0.97%)
+ADJ -- 3518 (24.01%)
+N -- 3996 (27.28%)
+PRN -- 53 (0.36%)
+DET -- 11 (0.08%)
+NUM -- 4 (0.03%)
+Writing 7325 total samples to data/sampled/add-one-in/LEXICAL_ERROR/rus_sampled.tsv

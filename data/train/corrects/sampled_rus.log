@@ -1,0 +1,59 @@
+Loaded 105492 annotations
+Filtering UNK/ERR annotations
+Removed 92341, (87.53%) samples (due to Apertium analysis errors, unknown analyses, or invalid MSDs)
+Found 139 lexical errors
+Including only ('C',) in the dataset
+('MAPPED_POS_PAIR_ERROR',)
+('TGT_SLOT_ERROR',)
+('POS_PAIR_ERROR',)
+('SRC_SLOT_ERROR',)
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR')
+('PARADIGM_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR', 'TGT_SLOT_ERROR')
+('SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('C',)
+Including data for ('C',)...
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_SLOT_ERROR')
+('PARADIGM_ERROR',)
+('POS_PAIR_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR')
+('TGT_LEXICAL_ERROR',)
+('SRC_LEXICAL_ERROR',)
+('TGT_LEXICAL_ERROR', 'SRC_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_SLOT_ERROR')
+('SRC_LEXICAL_ERROR', 'TGT_LEXICAL_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'SRC_SLOT_ERROR')
+('TGT_POS_ERROR', 'TGT_SLOT_ERROR')
+('SRC_POS_ERROR', 'TGT_POS_ERROR')
+('POS_PAIR_ERROR', 'SRC_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+('POS_PAIR_ERROR', 'TGT_POS_ERROR', 'SRC_SLOT_ERROR', 'TGT_SLOT_ERROR')
+
+ Existing samples distribution:
+('C',) --- 5294 (100.0%)
+Summarizing sampled data...
+5294 total samples
+
+Found 524 (9.9%) samples with an MSD that does not actually occur in UniMorph
+Invalid tags:
+{'ADJ;ACC;MASC;SG', 'ADJ;ACC;PL', 'V;IMP;1;PL'}
+
+Output dataset full fine-grained annotation distribution:
+C -- 5294 (100.0%)
+
+Output dataset percents of each coarse grained tag
+C -- 5294 (100.0%)
+
+Distribution of parts of speech in sampled data:
+V -- 5496 (51.91%)
+ADJ -- 2488 (23.5%)
+N -- 2604 (24.59%)
+Writing 5294 total samples to data/sampled/corrects/rus_sampled.tsv

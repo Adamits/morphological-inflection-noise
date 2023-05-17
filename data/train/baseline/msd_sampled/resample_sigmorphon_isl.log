@@ -1,0 +1,24 @@
+Found 1797 correct samples to replace from SIGMORPHON training
+Performing initial sampling to match lemmas and MSDs as much as possible
+Found 620 replacement samples with lemmas overlapping the corrects
+Initial sampling complete (983). Sampling more seen/unseen lemmas 
+from leftover SIGMORPHON (5912)
+Corrects seen/unseen: 107//1690
+Number of new samples with seen lemma:136
+Number of new samples with unseen lemma:847
+Redistributing 29 samples from seen lemmas to sample unseen lemmas.Resulting in 107 new seen lemmas
+Requesting 843 unseen lemmas from sigmorphon (4661)
+Resampling from 1797 SIGMORPHON samples
+Replaced corrects with new samples. 0 unused new samples remain.
+665 (73.4)% SIGMOPRPHON dev are seen in original SIGMOPRPHON train
+
+Summarizing dataset modifications after resampling:
+Resampled dataset lemma overlap with old: 40.95%
+Resampled dataset MSD overlap with old: 85.01%
+old seen/unseen: 144/3731
+new seen/unseen: 144/3731
+-5 Not enough overlapping lemma types in resampled data, replacing some...
+Previous test set lemma coverage: 28 (3.09)%
+New test set lemma coverage: 25 (2.76)%
+
+Writing to data/sampled/baseline/msd_sampled/isl_sampled_sigmorphon_resampling.tsv

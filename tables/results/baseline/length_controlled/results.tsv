@@ -1,0 +1,81 @@
+run	step	train_loss	epoch	val_accuracy	val_loss	lang	arch	model_version
+3	5190	0.0194484423846006	28.0	0.2691406309604645	1.431713581085205	deu	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+3	6614	0.0155028766021132	44.0	0.3056640625	0.7279094457626343	swe	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+3	3049	0.0270287729799747	24.0	0.2357421815395355	1.2460814714431765	isl	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+3	19316	0.0106880133971571	46.0	0.438281238079071	1.3425517082214355	rus	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+3	8579	0.0364682935178279	29.0	0.2119999974966049	1.4816948175430298	deu	bilstm-attn-sigmorphon-resampled-reinflection	0
+3	10383	0.0484972894191741	43.0	0.2540000081062317	1.0677696466445925	swe	bilstm-attn-sigmorphon-resampled-reinflection	0
+3	6983	0.0509644784033298	35.0	0.1860000044107437	1.8308899402618408	isl	bilstm-attn-sigmorphon-resampled-reinflection	0
+3	14475	0.0697392597794532	21.0	0.3700000047683716	1.0663222074508667	rus	bilstm-attn-sigmorphon-resampled-reinflection	0
+3	3119	0.7886574268341064	207.0	0.1566666662693023	1.754368782043457	deu	transformer-sigmorphon-resampled-reinflection	0
+3	9215	0.7689337134361267	767.0	0.2725000083446502	1.616069197654724	swe	transformer-sigmorphon-resampled-reinflection	0
+3	1599	0.8244499564170837	159.0	0.1650000065565109	1.9708306789398196	isl	transformer-sigmorphon-resampled-reinflection	0
+3	8975	0.7792327404022217	271.0	0.4583333432674408	1.3526489734649658	rus	transformer-sigmorphon-resampled-reinflection	0
+3				0.334		deu	M_C-sigmorphon-resampled-reinflection	
+3				0.397		swe	M_C-sigmorphon-resampled-reinflection	
+3				0.279		isl	M_C-sigmorphon-resampled-reinflection	
+3				0.509		rus	M_C-sigmorphon-resampled-reinflection	
+5	9844	0.0101965069770812	54.0	0.2671875059604645	1.475191950798035	deu	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+5	3380	0.0402528159320354	22.0	0.2845703065395355	0.6061275005340576	swe	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+5	3537	0.0233896616846323	28.0	0.2474609315395355	1.355798602104187	isl	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+5	8630	0.0281294118613004	20.0	0.4585937559604645	1.086216926574707	rus	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+5	5147	0.0736822634935379	17.0	0.2280000001192093	1.2880793809890747	deu	bilstm-attn-sigmorphon-resampled-reinflection	0
+5	13215	0.0328081399202346	55.0	0.2469999939203262	1.0926803350448608	swe	bilstm-attn-sigmorphon-resampled-reinflection	0
+5	10475	0.0313289426267147	53.0	0.1979999989271164	2.2206871509552	isl	bilstm-attn-sigmorphon-resampled-reinflection	0
+5	31583	0.0330151952803134	47.0	0.3659999966621399	1.496852993965149	rus	bilstm-attn-sigmorphon-resampled-reinflection	0
+5	10559	0.7585166692733765	703.0	0.170833334326744	1.8701661825180051	deu	transformer-sigmorphon-resampled-reinflection	0
+5	8255	0.7707908749580383	687.0	0.2566666603088379	1.656436800956726	swe	transformer-sigmorphon-resampled-reinflection	0
+5	3679	0.7886102199554443	367.0	0.1774999946355819	2.278197288513184	isl	transformer-sigmorphon-resampled-reinflection	0
+5	24815	0.7687172293663025	751.0	0.4583333432674408	1.4218435287475586	rus	transformer-sigmorphon-resampled-reinflection	0
+5				0.372		deu	M_C-sigmorphon-resampled-reinflection	
+5				0.405		swe	M_C-sigmorphon-resampled-reinflection	
+5				0.277		isl	M_C-sigmorphon-resampled-reinflection	
+5				0.518		rus	M_C-sigmorphon-resampled-reinflection	
+2	9844	0.0079832226037979	54.0	0.2347656190395355	1.5615265369415283	deu	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+2	2204	0.0855882689356803	14.0	0.2734375	0.5824719667434692	swe	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+2	6099	0.0090539744123816	49.0	0.2261718809604644	1.7090753316879272	isl	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+2	17261	0.0124209849163889	41.0	0.4501953125	1.4041837453842163	rus	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+2	8579	0.0398176312446594	29.0	0.2220000028610229	1.4662697315216064	deu	bilstm-attn-sigmorphon-resampled-reinflection	0
+2	9439	0.0525489412248134	39.0	0.2479999959468841	1.0649253129959106	swe	bilstm-attn-sigmorphon-resampled-reinflection	0
+2	6207	0.0645962208509445	31.0	0.1940000057220459	1.9451121091842647	isl	bilstm-attn-sigmorphon-resampled-reinflection	0
+2	31583	0.0330482125282287	47.0	0.3740000128746032	1.5154777765274048	rus	bilstm-attn-sigmorphon-resampled-reinflection	0
+2	9599	0.7591596841812134	639.0	0.2041666656732559	1.8014358282089231	deu	transformer-sigmorphon-resampled-reinflection	0
+2	7871	0.7720476388931274	655.0	0.270000010728836	1.607295274734497	swe	transformer-sigmorphon-resampled-reinflection	0
+2	5439	0.7713176608085632	543.0	0.1766666620969772	2.1295535564422607	isl	transformer-sigmorphon-resampled-reinflection	0
+2	25871	0.7680327892303467	783.0	0.4708333313465118	1.4062600135803225	rus	transformer-sigmorphon-resampled-reinflection	0
+2				0.358		deu	M_C-sigmorphon-resampled-reinflection	
+2				0.421		swe	M_C-sigmorphon-resampled-reinflection	
+2				0.277		isl	M_C-sigmorphon-resampled-reinflection	
+2				0.518		rus	M_C-sigmorphon-resampled-reinflection	
+4	8949	0.0113611472770571	49.0	0.240234375	1.381349802017212	deu	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+4	7496	0.0278835650533437	50.0	0.2630859315395355	0.8421157002449036	swe	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+4	2805	0.0314493849873542	22.0	0.2308593690395355	1.3282727003097534	isl	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+4	11096	0.0199931357055902	26.0	0.4564453065395355	1.2083548307418823	rus	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+4	13727	0.0204366520047187	47.0	0.1790000051259994	1.9719092845916748	deu	bilstm-attn-sigmorphon-resampled-reinflection	0
+4	9911	0.0454490482807159	41.0	0.2290000021457672	1.1504509449005127	swe	bilstm-attn-sigmorphon-resampled-reinflection	0
+4	8923	0.0367866493761539	45.0	0.2000000029802322	1.785111665725708	isl	bilstm-attn-sigmorphon-resampled-reinflection	0
+4	39479	0.0260086003690958	59.0	0.402999997138977	1.6680241823196411	rus	bilstm-attn-sigmorphon-resampled-reinflection	0
+4	5759	0.7673320770263672	383.0	0.1749999970197677	1.8196356296539309	deu	transformer-sigmorphon-resampled-reinflection	0
+4	6911	0.7743129730224609	575.0	0.2641666531562805	1.658999800682068	swe	transformer-sigmorphon-resampled-reinflection	0
+4	6079	0.7675521969795227	607.0	0.1700000017881393	2.25604248046875	isl	transformer-sigmorphon-resampled-reinflection	0
+4	23759	0.7681867480278015	719.0	0.4616666734218597	1.3801645040512085	rus	transformer-sigmorphon-resampled-reinflection	0
+4				0.329		deu	M_C-sigmorphon-resampled-reinflection	
+4				0.387		swe	M_C-sigmorphon-resampled-reinflection	
+4				0.267		isl	M_C-sigmorphon-resampled-reinflection	
+4				0.528		rus	M_C-sigmorphon-resampled-reinflection	
+1	6801	0.02033974789083	37.0	0.2587890625	1.5651891231536863	deu	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+1	5732	0.0269785709679126	38.0	0.267578125	0.8528382182121277	swe	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+1	4147	0.016078321263194	33.0	0.2322265654802322	1.3757281303405762	isl	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+1	15206	0.0159711930900812	36.0	0.4398437440395355	1.4172146320343018	rus	pointer_generator_lstm-sigmorphon-resampled-reinflection	0
+1	10295	0.0302828010171651	35.0	0.2049999982118606	1.5293275117874146	deu	bilstm-attn-sigmorphon-resampled-reinflection	0
+1	12743	0.0359130539000034	53.0	0.2399999946355819	1.3188878297805786	swe	bilstm-attn-sigmorphon-resampled-reinflection	0
+1	3491	0.1399917304515838	17.0	0.1909999996423721	1.3398760557174685	isl	bilstm-attn-sigmorphon-resampled-reinflection	0
+1	25003	0.0380267314612865	37.0	0.4070000052452087	1.278589367866516	rus	bilstm-attn-sigmorphon-resampled-reinflection	0
+1	3839	0.7816973328590393	255.0	0.1599999964237213	1.8305948972702024	deu	transformer-sigmorphon-resampled-reinflection	0
+1	8639	0.7702513337135315	719.0	0.2616666555404663	1.652274489402771	swe	transformer-sigmorphon-resampled-reinflection	0
+1	5759	0.7686954140663147	575.0	0.1808333396911621	2.155146598815918	isl	transformer-sigmorphon-resampled-reinflection	0
+1	25871	0.7683002948760986	783.0	0.4600000083446502	1.3811018466949463	rus	transformer-sigmorphon-resampled-reinflection	0
+1				0.335		deu	M_C-sigmorphon-resampled-reinflection	
+1				0.379		swe	M_C-sigmorphon-resampled-reinflection	
+1				0.274		isl	M_C-sigmorphon-resampled-reinflection	
+1				0.518		rus	M_C-sigmorphon-resampled-reinflection	

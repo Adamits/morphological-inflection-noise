@@ -1,0 +1,4 @@
+Including only ('PARADIGM_ERROR', 'C') in the dataset
+C -- 91.43%
+PARADIGM_ERROR -- 8.57%
+Writing 7868 total samples to data/sampled/MSD-reinflection-resampled-add-one-in/PARADIGM_ERROR/rus_sampled.tsv
